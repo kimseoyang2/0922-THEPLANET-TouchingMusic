@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/YongJae.unity
     guid: 48c95fa9503b87344ab298b6e2cc2202
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/sy_09-09.unity
     guid: 8e9f6ffc3e3f04b4fa0d52867aa68813
   - enabled: 0
-    path: Assets/Easy Grab VR/Demo/Scenes/OculusSDKDemo.unity
-    guid: 0b16840ae8c457b4ab01f4b505a43756
+    path: Assets/Oculus/VR/Scenes/ControllerModels.unity
+    guid: 39cfe7aa0a2d46c47994d8d0308ec663
   m_configObjects: {}
