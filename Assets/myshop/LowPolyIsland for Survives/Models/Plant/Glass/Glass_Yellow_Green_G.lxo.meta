@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 6fcf251c93fd7fc4aa424f716c7698c8
+timeCreated: 1512649974
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Cart__Image___Texture_
+    100004: Directional_Light
+    100006: Glass_01
+    100008: Glass_02
+    100010: Glass_03__2_
+    100012: Glass_05
+    100014: Glass_06
+    100016: Glass_07
+    100018: Glass_08
+    100020: Glass_09
+    100022: Glass_10
+    100024: Glass_11
+    100026: Glass_12
+    100028: Glass_13
+    100030: Glass_Green_G
+    100032: Glass_yellow_1
+    100034: Glass_yellow_2
+    100036: Glass_yellow_3
+    100038: Glass_yellow__10_
+    100040: Glass_yellow__11_
+    100042: Glass_yellow__12_
+    100044: Glass_yellow__4_
+    100046: Glass_yellow__5_
+    100048: Glass_yellow__6_
+    100050: Glass_yellow__7_
+    100052: Glass_yellow__8_
+    100054: Glass_yellow__9_
+    100056: Glass_Yellow_G__2_
+    100058: //RootNode
+    100060: Render
+    100062: TextureGroup
+    400000: Camera
+    400002: Cart__Image___Texture_
+    400004: Directional_Light
+    400006: Glass_01
+    400008: Glass_02
+    400010: Glass_03__2_
+    400012: Glass_05
+    400014: Glass_06
+    400016: Glass_07
+    400018: Glass_08
+    400020: Glass_09
+    400022: Glass_10
+    400024: Glass_11
+    400026: Glass_12
+    400028: Glass_13
+    400030: Glass_Green_G
+    400032: Glass_yellow_1
+    400034: Glass_yellow_2
+    400036: Glass_yellow_3
+    400038: Glass_yellow__10_
+    400040: Glass_yellow__11_
+    400042: Glass_yellow__12_
+    400044: Glass_yellow__4_
+    400046: Glass_yellow__5_
+    400048: Glass_yellow__6_
+    400050: Glass_yellow__7_
+    400052: Glass_yellow__8_
+    400054: Glass_yellow__9_
+    400056: Glass_Yellow_G__2_
+    400058: //RootNode
+    400060: Render
+    400062: TextureGroup
+    2300000: Glass_01
+    2300002: Glass_02
+    2300004: Glass_03__2_
+    2300006: Glass_05
+    2300008: Glass_06
+    2300010: Glass_07
+    2300012: Glass_08
+    2300014: Glass_09
+    2300016: Glass_10
+    2300018: Glass_11
+    2300020: Glass_12
+    2300022: Glass_13
+    2300024: Glass_yellow_1
+    2300026: Glass_yellow_2
+    2300028: Glass_yellow_3
+    2300030: Glass_yellow__10_
+    2300032: Glass_yellow__11_
+    2300034: Glass_yellow__12_
+    2300036: Glass_yellow__4_
+    2300038: Glass_yellow__5_
+    2300040: Glass_yellow__6_
+    2300042: Glass_yellow__7_
+    2300044: Glass_yellow__8_
+    2300046: Glass_yellow__9_
+    3300000: Glass_01
+    3300002: Glass_02
+    3300004: Glass_03__2_
+    3300006: Glass_05
+    3300008: Glass_06
+    3300010: Glass_07
+    3300012: Glass_08
+    3300014: Glass_09
+    3300016: Glass_10
+    3300018: Glass_11
+    3300020: Glass_12
+    3300022: Glass_13
+    3300024: Glass_yellow_1
+    3300026: Glass_yellow_2
+    3300028: Glass_yellow_3
+    3300030: Glass_yellow__10_
+    3300032: Glass_yellow__11_
+    3300034: Glass_yellow__12_
+    3300036: Glass_yellow__4_
+    3300038: Glass_yellow__5_
+    3300040: Glass_yellow__6_
+    3300042: Glass_yellow__7_
+    3300044: Glass_yellow__8_
+    3300046: Glass_yellow__9_
+    4300000: Glass_yellow_1
+    4300002: Glass_yellow_2
+    4300004: Glass_yellow_3
+    4300006: Glass_yellow__4_
+    4300008: Glass_yellow__5_
+    4300010: Glass_yellow__6_
+    4300012: Glass_yellow__7_
+    4300014: Glass_yellow__8_
+    4300016: Glass_yellow__9_
+    4300018: Glass_yellow__10_
+    4300020: Glass_yellow__11_
+    4300022: Glass_yellow__12_
+    4300024: Glass_01
+    4300026: Glass_02
+    4300028: Glass_03__2_
+    4300030: Glass_05
+    4300032: Glass_06
+    4300034: Glass_07
+    4300036: Glass_08
+    4300038: Glass_09
+    4300040: Glass_10
+    4300042: Glass_11
+    4300044: Glass_12
+    4300046: Glass_13
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: cce4fbdbdcc0b7f4b924259014098b45
+timeCreated: 1512136604
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Head
+    100004: Leg_l
+    100006: Leg_l (2)
+    100008: Leg_l (3)
+    100010: Leg_r
+    100012: Leg_r (2)
+    100014: Leg_r (3)
+    100016: n
+    100018: Neck
+    100020: Root
+    100022: SeaGull
+    100024: //RootNode
+    100026: Tail
+    100028: Tail (2)
+    100030: Tail (3)
+    100032: Texture Group
+    100034: Wing_l
+    100036: Wing_l (2)
+    100038: Wing_l (3)
+    100040: Wing_l (4)
+    100042: Wing_r
+    100044: Wing_r (2)
+    100046: Wing_r (3)
+    100048: Wing_r (4)
+    400000: Body
+    400002: Head
+    400004: Leg_l
+    400006: Leg_l (2)
+    400008: Leg_l (3)
+    400010: Leg_r
+    400012: Leg_r (2)
+    400014: Leg_r (3)
+    400016: n
+    400018: Neck
+    400020: Root
+    400022: SeaGull
+    400024: //RootNode
+    400026: Tail
+    400028: Tail (2)
+    400030: Tail (3)
+    400032: Texture Group
+    400034: Wing_l
+    400036: Wing_l (2)
+    400038: Wing_l (3)
+    400040: Wing_l (4)
+    400042: Wing_r
+    400044: Wing_r (2)
+    400046: Wing_r (3)
+    400048: Wing_r (4)
+    7400000: SeaGull_WingFly
+    7400002: SeaGull_WingStop
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SeaGull_WingFly
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Leg_l
+        weight: 1
+      - path: Root/Body/Leg_l/Leg_l (2)
+        weight: 1
+      - path: Root/Body/Leg_l/Leg_l (2)/Leg_l (3)
+        weight: 1
+      - path: Root/Body/Leg_r
+        weight: 1
+      - path: Root/Body/Leg_r/Leg_r (2)
+        weight: 1
+      - path: Root/Body/Leg_r/Leg_r (2)/Leg_r (3)
+        weight: 1
+      - path: Root/Body/Neck
+        weight: 1
+      - path: Root/Body/Neck/Head
+        weight: 1
+      - path: Root/Body/Neck/Head/n
+        weight: 1
+      - path: Root/Body/Tail
+        weight: 1
+      - path: Root/Body/Tail/Tail (2)
+        weight: 1
+      - path: Root/Body/Tail/Tail (2)/Tail (3)
+        weight: 1
+      - path: Root/Body/Wing_l
+        weight: 1
+      - path: Root/Body/Wing_l/Wing_l (2)
+        weight: 1
+      - path: Root/Body/Wing_l/Wing_l (2)/Wing_l (3)
+        weight: 1
+      - path: Root/Body/Wing_l/Wing_l (2)/Wing_l (3)/Wing_l (4)
+        weight: 1
+      - path: Root/Body/Wing_r
+        weight: 1
+      - path: Root/Body/Wing_r/Wing_r (2)
+        weight: 1
+      - path: Root/Body/Wing_r/Wing_r (2)/Wing_r (3)
+        weight: 1
+      - path: Root/Body/Wing_r/Wing_r (2)/Wing_r (3)/Wing_r (4)
+        weight: 1
+      - path: SeaGull
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SeaGull_WingStop
+      takeName: Take 001
+      firstFrame: 52
+      lastFrame: 132
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Leg_l
+        weight: 1
+      - path: Root/Body/Leg_l/Leg_l (2)
+        weight: 1
+      - path: Root/Body/Leg_l/Leg_l (2)/Leg_l (3)
+        weight: 1
+      - path: Root/Body/Leg_r
+        weight: 1
+      - path: Root/Body/Leg_r/Leg_r (2)
+        weight: 1
+      - path: Root/Body/Leg_r/Leg_r (2)/Leg_r (3)
+        weight: 1
+      - path: Root/Body/Neck
+        weight: 1
+      - path: Root/Body/Neck/Head
+        weight: 1
+      - path: Root/Body/Neck/Head/n
+        weight: 1
+      - path: Root/Body/Tail
+        weight: 1
+      - path: Root/Body/Tail/Tail (2)
+        weight: 1
+      - path: Root/Body/Tail/Tail (2)/Tail (3)
+        weight: 1
+      - path: Root/Body/Wing_l
+        weight: 1
+      - path: Root/Body/Wing_l/Wing_l (2)
+        weight: 1
+      - path: Root/Body/Wing_l/Wing_l (2)/Wing_l (3)
+        weight: 1
+      - path: Root/Body/Wing_l/Wing_l (2)/Wing_l (3)/Wing_l (4)
+        weight: 1
+      - path: Root/Body/Wing_r
+        weight: 1
+      - path: Root/Body/Wing_r/Wing_r (2)
+        weight: 1
+      - path: Root/Body/Wing_r/Wing_r (2)/Wing_r (3)
+        weight: 1
+      - path: Root/Body/Wing_r/Wing_r (2)/Wing_r (3)/Wing_r (4)
+        weight: 1
+      - path: SeaGull
+        weight: 1
+      - path: Texture Group
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

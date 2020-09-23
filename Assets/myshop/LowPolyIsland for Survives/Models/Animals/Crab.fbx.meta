@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: ae3137259ed742343be8a09c7f7c9307
+timeCreated: 1512129418
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Crab
+    100004: CrabBody
+    100006: l_eye1
+    100008: l_eye1 (2)
+    100010: l_eye1 (3)
+    100012: l_hand1
+    100014: l_hand1 (2)
+    100016: l_hand1 (3)
+    100018: l_hand1 (4)
+    100020: l_hand1 (5)
+    100022: l_hand1 (6)
+    100024: l_hand1 (7)
+    100026: l_leg1
+    100028: l_leg1 (2)
+    100030: l_leg1 (3)
+    100032: l_leg2
+    100034: l_leg2 (2)
+    100036: l_leg2 (3)
+    100038: l_leg3
+    100040: l_leg3 (2)
+    100042: l_leg3 (3)
+    100044: l_leg4
+    100046: l_leg4 (2)
+    100048: l_leg4 (3)
+    100050: r_eye1
+    100052: r_eye1 (2)
+    100054: r_eye1 (3)
+    100056: r_hand1
+    100058: r_hand1 (2)
+    100060: r_hand1 (3)
+    100062: r_hand1 (4)
+    100064: r_hand1 (5)
+    100066: r_hand1 (6)
+    100068: r_hand1 (7)
+    100070: r_leg1
+    100072: r_leg1 (2)
+    100074: r_leg1 (3)
+    100076: r_leg2
+    100078: r_leg2 (2)
+    100080: r_leg2 (3)
+    100082: r_leg3
+    100084: r_leg3 (2)
+    100086: r_leg3 (3)
+    100088: r_leg4
+    100090: r_leg4 (2)
+    100092: r_leg4 (3)
+    100094: Root
+    100096: Skeleton_Head (2)
+    100098: Texture Group
+    100100: Skeleton_Head
+    400000: //RootNode
+    400002: Crab
+    400004: CrabBody
+    400006: l_eye1
+    400008: l_eye1 (2)
+    400010: l_eye1 (3)
+    400012: l_hand1
+    400014: l_hand1 (2)
+    400016: l_hand1 (3)
+    400018: l_hand1 (4)
+    400020: l_hand1 (5)
+    400022: l_hand1 (6)
+    400024: l_hand1 (7)
+    400026: l_leg1
+    400028: l_leg1 (2)
+    400030: l_leg1 (3)
+    400032: l_leg2
+    400034: l_leg2 (2)
+    400036: l_leg2 (3)
+    400038: l_leg3
+    400040: l_leg3 (2)
+    400042: l_leg3 (3)
+    400044: l_leg4
+    400046: l_leg4 (2)
+    400048: l_leg4 (3)
+    400050: r_eye1
+    400052: r_eye1 (2)
+    400054: r_eye1 (3)
+    400056: r_hand1
+    400058: r_hand1 (2)
+    400060: r_hand1 (3)
+    400062: r_hand1 (4)
+    400064: r_hand1 (5)
+    400066: r_hand1 (6)
+    400068: r_hand1 (7)
+    400070: r_leg1
+    400072: r_leg1 (2)
+    400074: r_leg1 (3)
+    400076: r_leg2
+    400078: r_leg2 (2)
+    400080: r_leg2 (3)
+    400082: r_leg3
+    400084: r_leg3 (2)
+    400086: r_leg3 (3)
+    400088: r_leg4
+    400090: r_leg4 (2)
+    400092: r_leg4 (3)
+    400094: Root
+    400096: Skeleton_Head (2)
+    400098: Texture Group
+    400100: Skeleton_Head
+    4300000: Crab
+    7400000: Idle
+    7400002: Walk
+    7400004: sd
+    9500000: //RootNode
+    13700000: Crab
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/CrabBody
+        weight: 1
+      - path: Root/CrabBody/l_eye1
+        weight: 1
+      - path: Root/CrabBody/l_eye1/l_eye1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_eye1/l_eye1 (2)/l_eye1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_hand1
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (4)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (4)/l_hand1 (5)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (6)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (6)/l_hand1 (7)
+        weight: 1
+      - path: Root/CrabBody/l_leg1
+        weight: 1
+      - path: Root/CrabBody/l_leg1/l_leg1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg1/l_leg1 (2)/l_leg1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg2
+        weight: 1
+      - path: Root/CrabBody/l_leg2/l_leg2 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg2/l_leg2 (2)/l_leg2 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg3
+        weight: 1
+      - path: Root/CrabBody/l_leg3/l_leg3 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg3/l_leg3 (2)/l_leg3 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg4
+        weight: 1
+      - path: Root/CrabBody/l_leg4/l_leg4 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg4/l_leg4 (2)/l_leg4 (3)
+        weight: 1
+      - path: Root/CrabBody/r_eye1
+        weight: 1
+      - path: Root/CrabBody/r_eye1/r_eye1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_eye1/r_eye1 (2)/r_eye1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_hand1
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (4)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (4)/r_hand1 (5)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (6)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (6)/r_hand1 (7)
+        weight: 1
+      - path: Root/CrabBody/r_leg1
+        weight: 1
+      - path: Root/CrabBody/r_leg1/r_leg1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg1/r_leg1 (2)/r_leg1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg2
+        weight: 1
+      - path: Root/CrabBody/r_leg2/r_leg2 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg2/r_leg2 (2)/r_leg2 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg3
+        weight: 1
+      - path: Root/CrabBody/r_leg3/r_leg3 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg3/r_leg3 (2)/r_leg3 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg4
+        weight: 1
+      - path: Root/CrabBody/r_leg4/r_leg4 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg4/r_leg4 (2)/r_leg4 (3)
+        weight: 1
+      - path: Root/CrabBody/Skeleton_Head (2)
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/CrabBody
+        weight: 1
+      - path: Root/CrabBody/l_eye1
+        weight: 1
+      - path: Root/CrabBody/l_eye1/l_eye1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_eye1/l_eye1 (2)/l_eye1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_hand1
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (4)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (4)/l_hand1 (5)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (6)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (6)/l_hand1 (7)
+        weight: 1
+      - path: Root/CrabBody/l_leg1
+        weight: 1
+      - path: Root/CrabBody/l_leg1/l_leg1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg1/l_leg1 (2)/l_leg1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg2
+        weight: 1
+      - path: Root/CrabBody/l_leg2/l_leg2 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg2/l_leg2 (2)/l_leg2 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg3
+        weight: 1
+      - path: Root/CrabBody/l_leg3/l_leg3 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg3/l_leg3 (2)/l_leg3 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg4
+        weight: 1
+      - path: Root/CrabBody/l_leg4/l_leg4 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg4/l_leg4 (2)/l_leg4 (3)
+        weight: 1
+      - path: Root/CrabBody/r_eye1
+        weight: 1
+      - path: Root/CrabBody/r_eye1/r_eye1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_eye1/r_eye1 (2)/r_eye1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_hand1
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (4)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (4)/r_hand1 (5)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (6)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (6)/r_hand1 (7)
+        weight: 1
+      - path: Root/CrabBody/r_leg1
+        weight: 1
+      - path: Root/CrabBody/r_leg1/r_leg1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg1/r_leg1 (2)/r_leg1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg2
+        weight: 1
+      - path: Root/CrabBody/r_leg2/r_leg2 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg2/r_leg2 (2)/r_leg2 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg3
+        weight: 1
+      - path: Root/CrabBody/r_leg3/r_leg3 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg3/r_leg3 (2)/r_leg3 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg4
+        weight: 1
+      - path: Root/CrabBody/r_leg4/r_leg4 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg4/r_leg4 (2)/r_leg4 (3)
+        weight: 1
+      - path: Root/CrabBody/Skeleton_Head (2)
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sd
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 216
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crab
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/CrabBody
+        weight: 1
+      - path: Root/CrabBody/l_eye1
+        weight: 1
+      - path: Root/CrabBody/l_eye1/l_eye1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_eye1/l_eye1 (2)/l_eye1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_hand1
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (4)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (4)/l_hand1 (5)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (6)
+        weight: 1
+      - path: Root/CrabBody/l_hand1/l_hand1 (2)/l_hand1 (3)/l_hand1 (6)/l_hand1 (7)
+        weight: 1
+      - path: Root/CrabBody/l_leg1
+        weight: 1
+      - path: Root/CrabBody/l_leg1/l_leg1 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg1/l_leg1 (2)/l_leg1 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg2
+        weight: 1
+      - path: Root/CrabBody/l_leg2/l_leg2 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg2/l_leg2 (2)/l_leg2 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg3
+        weight: 1
+      - path: Root/CrabBody/l_leg3/l_leg3 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg3/l_leg3 (2)/l_leg3 (3)
+        weight: 1
+      - path: Root/CrabBody/l_leg4
+        weight: 1
+      - path: Root/CrabBody/l_leg4/l_leg4 (2)
+        weight: 1
+      - path: Root/CrabBody/l_leg4/l_leg4 (2)/l_leg4 (3)
+        weight: 1
+      - path: Root/CrabBody/r_eye1
+        weight: 1
+      - path: Root/CrabBody/r_eye1/r_eye1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_eye1/r_eye1 (2)/r_eye1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_hand1
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (4)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (4)/r_hand1 (5)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (6)
+        weight: 1
+      - path: Root/CrabBody/r_hand1/r_hand1 (2)/r_hand1 (3)/r_hand1 (6)/r_hand1 (7)
+        weight: 1
+      - path: Root/CrabBody/r_leg1
+        weight: 1
+      - path: Root/CrabBody/r_leg1/r_leg1 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg1/r_leg1 (2)/r_leg1 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg2
+        weight: 1
+      - path: Root/CrabBody/r_leg2/r_leg2 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg2/r_leg2 (2)/r_leg2 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg3
+        weight: 1
+      - path: Root/CrabBody/r_leg3/r_leg3 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg3/r_leg3 (2)/r_leg3 (3)
+        weight: 1
+      - path: Root/CrabBody/r_leg4
+        weight: 1
+      - path: Root/CrabBody/r_leg4/r_leg4 (2)
+        weight: 1
+      - path: Root/CrabBody/r_leg4/r_leg4 (2)/r_leg4 (3)
+        weight: 1
+      - path: Root/CrabBody/Skeleton_Head (2)
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

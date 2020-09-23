@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 6e6ee80955d874e4ca3050a6f29d8e50
+timeCreated: 1511867613
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Glass_01
+    100002: Glass_01 (2)
+    100004: Glass_02
+    100006: Glass_02 (2)
+    100008: Glass_03
+    100010: Glass_03 (2)
+    100012: Glass_05
+    100014: Glass_05 (2)
+    100016: Glass_06
+    100018: Glass_06 (2)
+    100020: Glass_07
+    100022: Glass_07 (2)
+    100024: Glass_08
+    100026: Glass_08 (2)
+    100028: Glass_09
+    100030: Glass_09 (2)
+    100032: Glass_10
+    100034: Glass_10 (2)
+    100036: Glass_11
+    100038: Glass_11 (2)
+    100040: Glass_12
+    100042: Glass_12 (2)
+    100044: Glass_13
+    100046: Glass_13 (2)
+    100048: Glass_Green_G
+    100050: Glass_Yellow_G (2)
+    100052: //RootNode
+    100054: Glass_Green_01
+    100056: Glass_Green_02
+    100058: Glass_Green_03
+    100060: Glass_Green_04
+    100062: Glass_Green_05
+    100064: Glass_Green_06
+    100066: Glass_Green_07
+    100068: Glass_Green_08
+    100070: Glass_Green_09
+    100072: Glass_Green_10
+    100074: Glass_Green_11
+    100076: Glass_Green_12
+    100078: Glass_Yellow_1
+    100080: Glass_Yellow_10
+    100082: Glass_Yellow_11
+    100084: Glass_Yellow_12
+    100086: Glass_Yellow_2
+    100088: Glass_Yellow_3
+    100090: Glass_Yellow_4
+    100092: Glass_Yellow_5
+    100094: Glass_Yellow_6
+    100096: Glass_Yellow_7
+    100098: Glass_Yellow_8
+    100100: Glass_Yellow_9
+    100102: Glass_Yellow_G
+    400000: Glass_01
+    400002: Glass_01 (2)
+    400004: Glass_02
+    400006: Glass_02 (2)
+    400008: Glass_03
+    400010: Glass_03 (2)
+    400012: Glass_05
+    400014: Glass_05 (2)
+    400016: Glass_06
+    400018: Glass_06 (2)
+    400020: Glass_07
+    400022: Glass_07 (2)
+    400024: Glass_08
+    400026: Glass_08 (2)
+    400028: Glass_09
+    400030: Glass_09 (2)
+    400032: Glass_10
+    400034: Glass_10 (2)
+    400036: Glass_11
+    400038: Glass_11 (2)
+    400040: Glass_12
+    400042: Glass_12 (2)
+    400044: Glass_13
+    400046: Glass_13 (2)
+    400048: Glass_Green_G
+    400050: Glass_Yellow_G (2)
+    400052: //RootNode
+    400054: Glass_Green_01
+    400056: Glass_Green_02
+    400058: Glass_Green_03
+    400060: Glass_Green_04
+    400062: Glass_Green_05
+    400064: Glass_Green_06
+    400066: Glass_Green_07
+    400068: Glass_Green_08
+    400070: Glass_Green_09
+    400072: Glass_Green_10
+    400074: Glass_Green_11
+    400076: Glass_Green_12
+    400078: Glass_Yellow_1
+    400080: Glass_Yellow_10
+    400082: Glass_Yellow_11
+    400084: Glass_Yellow_12
+    400086: Glass_Yellow_2
+    400088: Glass_Yellow_3
+    400090: Glass_Yellow_4
+    400092: Glass_Yellow_5
+    400094: Glass_Yellow_6
+    400096: Glass_Yellow_7
+    400098: Glass_Yellow_8
+    400100: Glass_Yellow_9
+    400102: Glass_Yellow_G
+    2300000: Glass_01
+    2300002: Glass_01 (2)
+    2300004: Glass_02
+    2300006: Glass_02 (2)
+    2300008: Glass_03
+    2300010: Glass_03 (2)
+    2300012: Glass_05
+    2300014: Glass_05 (2)
+    2300016: Glass_06
+    2300018: Glass_06 (2)
+    2300020: Glass_07
+    2300022: Glass_07 (2)
+    2300024: Glass_08
+    2300026: Glass_08 (2)
+    2300028: Glass_09
+    2300030: Glass_09 (2)
+    2300032: Glass_10
+    2300034: Glass_10 (2)
+    2300036: Glass_11
+    2300038: Glass_11 (2)
+    2300040: Glass_12
+    2300042: Glass_12 (2)
+    2300044: Glass_13
+    2300046: Glass_13 (2)
+    2300048: Glass_Green_01
+    2300050: Glass_Green_02
+    2300052: Glass_Green_03
+    2300054: Glass_Green_04
+    2300056: Glass_Green_05
+    2300058: Glass_Green_06
+    2300060: Glass_Green_07
+    2300062: Glass_Green_08
+    2300064: Glass_Green_09
+    2300066: Glass_Green_10
+    2300068: Glass_Green_11
+    2300070: Glass_Green_12
+    2300072: Glass_Yellow_1
+    2300074: Glass_Yellow_10
+    2300076: Glass_Yellow_11
+    2300078: Glass_Yellow_12
+    2300080: Glass_Yellow_2
+    2300082: Glass_Yellow_3
+    2300084: Glass_Yellow_4
+    2300086: Glass_Yellow_5
+    2300088: Glass_Yellow_6
+    2300090: Glass_Yellow_7
+    2300092: Glass_Yellow_8
+    2300094: Glass_Yellow_9
+    3300000: Glass_01
+    3300002: Glass_01 (2)
+    3300004: Glass_02
+    3300006: Glass_02 (2)
+    3300008: Glass_03
+    3300010: Glass_03 (2)
+    3300012: Glass_05
+    3300014: Glass_05 (2)
+    3300016: Glass_06
+    3300018: Glass_06 (2)
+    3300020: Glass_07
+    3300022: Glass_07 (2)
+    3300024: Glass_08
+    3300026: Glass_08 (2)
+    3300028: Glass_09
+    3300030: Glass_09 (2)
+    3300032: Glass_10
+    3300034: Glass_10 (2)
+    3300036: Glass_11
+    3300038: Glass_11 (2)
+    3300040: Glass_12
+    3300042: Glass_12 (2)
+    3300044: Glass_13
+    3300046: Glass_13 (2)
+    3300048: Glass_Green_01
+    3300050: Glass_Green_02
+    3300052: Glass_Green_03
+    3300054: Glass_Green_04
+    3300056: Glass_Green_05
+    3300058: Glass_Green_06
+    3300060: Glass_Green_07
+    3300062: Glass_Green_08
+    3300064: Glass_Green_09
+    3300066: Glass_Green_10
+    3300068: Glass_Green_11
+    3300070: Glass_Green_12
+    3300072: Glass_Yellow_1
+    3300074: Glass_Yellow_10
+    3300076: Glass_Yellow_11
+    3300078: Glass_Yellow_12
+    3300080: Glass_Yellow_2
+    3300082: Glass_Yellow_3
+    3300084: Glass_Yellow_4
+    3300086: Glass_Yellow_5
+    3300088: Glass_Yellow_6
+    3300090: Glass_Yellow_7
+    3300092: Glass_Yellow_8
+    3300094: Glass_Yellow_9
+    4300000: Glass_01 (2)
+    4300002: Glass_02 (2)
+    4300004: Glass_03
+    4300006: Glass_05 (2)
+    4300008: Glass_06 (2)
+    4300010: Glass_07 (2)
+    4300012: Glass_08 (2)
+    4300014: Glass_09 (2)
+    4300016: Glass_10 (2)
+    4300018: Glass_11 (2)
+    4300020: Glass_12 (2)
+    4300022: Glass_13 (2)
+    4300024: Glass_01
+    4300026: Glass_02
+    4300028: Glass_03 (2)
+    4300030: Glass_05
+    4300032: Glass_06
+    4300034: Glass_07
+    4300036: Glass_08
+    4300038: Glass_09
+    4300040: Glass_10
+    4300042: Glass_11
+    4300044: Glass_12
+    4300046: Glass_13
+    4300048: Glass_Yellow_1
+    4300050: Glass_Yellow_2
+    4300052: Glass_Yellow_3
+    4300054: Glass_Yellow_4
+    4300056: Glass_Yellow_5
+    4300058: Glass_Yellow_6
+    4300060: Glass_Yellow_7
+    4300062: Glass_Yellow_8
+    4300064: Glass_Yellow_9
+    4300066: Glass_Yellow_10
+    4300068: Glass_Yellow_11
+    4300070: Glass_Yellow_12
+    4300072: Glass_Green_01
+    4300074: Glass_Green_02
+    4300076: Glass_Green_03
+    4300078: Glass_Green_04
+    4300080: Glass_Green_05
+    4300082: Glass_Green_06
+    4300084: Glass_Green_07
+    4300086: Glass_Green_08
+    4300088: Glass_Green_09
+    4300090: Glass_Green_10
+    4300092: Glass_Green_11
+    4300094: Glass_Green_12
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

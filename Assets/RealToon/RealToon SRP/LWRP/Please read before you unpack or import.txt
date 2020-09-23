@@ -1,0 +1,36 @@
+RealToon V5.0.7 (LWRP)
+===========================================================
+Note:
+===========================================================
+
+Currently only "Default" and "Fade Transparency" are avaiable.
+Tessellation will be coming soon.
+
+You can also use this for mobile games.
+
+Currently Shadow for Pointlight is not yet available on LWRP.
+
+===========================================================
+===========================================================
+
+(To use this you need):
+*Unity 2018 with LWRP version 4.0.0 or latest Unity & LWRP Version.
+
+How To Update LWRP:
+1.Go to Window > Package Manager.
+2.Select "All" then select "Lightweight Render" and select "Version 4.0.0" or latest.
+3.Click "Update" or "Update To".
+
+===========================================================
+New Options/Features for LWRP
+===========================================================
+
+- As of this version v5.0.7, none.
+
+===========================================================
+Changes for LWRP
+===========================================================
+
+- "Reduce Outline Backface" removed because you can just turn on "ZWrite" then adjust "Opacity".[Fade Transparency]
+- "Vertex Color Red Affect Outline" Changed To "Vertex Color Blue Affect Outline".
+- "Vertex Color Blue Control Smooth Object Normal" Changed To "Vertex Color Red Control Smooth Object Normal".

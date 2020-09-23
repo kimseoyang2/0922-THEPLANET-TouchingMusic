@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 82d3b2175c2ca5b41b41fae05c4ea750
+timeCreated: 1512046298
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Texture Group
+    100004: Wood_01
+    100006: Wood_02
+    100008: Wood_03
+    100010: Wood_04
+    100012: Wood_05
+    100014: Wood_06
+    100016: Wood_07
+    100018: Wood_s01
+    100020: Wood_s02
+    100022: Wood_s03
+    100024: Wood_s04
+    100026: Wood_s05
+    100028: Wood_s06_Back
+    100030: Wood_s06_Font
+    100032: Rock_01
+    100034: Rock_02
+    100036: Rock_03
+    100038: Rock_04
+    100040: Rock_05
+    100042: Rock_06
+    100044: Rock_07
+    100046: Rock_08
+    100048: Rock_09
+    100050: Rock_10
+    100052: Rock_11
+    100054: Rock_12
+    100056: Rock_13
+    100058: Rock_14
+    100060: Rock_15
+    100062: Rock_16
+    100064: Rock_17
+    100066: Rock_18
+    100068: Rock_19
+    100070: Rock_G
+    400000: //RootNode
+    400002: Texture Group
+    400004: Wood_01
+    400006: Wood_02
+    400008: Wood_03
+    400010: Wood_04
+    400012: Wood_05
+    400014: Wood_06
+    400016: Wood_07
+    400018: Wood_s01
+    400020: Wood_s02
+    400022: Wood_s03
+    400024: Wood_s04
+    400026: Wood_s05
+    400028: Wood_s06_Back
+    400030: Wood_s06_Font
+    400032: Rock_01
+    400034: Rock_02
+    400036: Rock_03
+    400038: Rock_04
+    400040: Rock_05
+    400042: Rock_06
+    400044: Rock_07
+    400046: Rock_08
+    400048: Rock_09
+    400050: Rock_10
+    400052: Rock_11
+    400054: Rock_12
+    400056: Rock_13
+    400058: Rock_14
+    400060: Rock_15
+    400062: Rock_16
+    400064: Rock_17
+    400066: Rock_18
+    400068: Rock_19
+    400070: Rock_G
+    2300000: Wood_02
+    2300002: Wood_03
+    2300004: Wood_04
+    2300006: Wood_05
+    2300008: Wood_06
+    2300010: Wood_07
+    2300012: Wood_s02
+    2300014: Wood_s03
+    2300016: Wood_s04
+    2300018: Wood_s05
+    2300020: Wood_s06_Back
+    2300022: Wood_s06_Font
+    2300024: Rock_01
+    2300026: Rock_02
+    2300028: Rock_03
+    2300030: Rock_04
+    2300032: Rock_05
+    2300034: Rock_06
+    2300036: Rock_07
+    2300038: Rock_08
+    2300040: Rock_09
+    2300042: Rock_10
+    2300044: Rock_11
+    2300046: Rock_12
+    2300048: Rock_13
+    2300050: Rock_14
+    2300052: Rock_15
+    2300054: Rock_16
+    2300056: Rock_17
+    2300058: Rock_18
+    2300060: Rock_19
+    2300062: //RootNode
+    3300000: Wood_02
+    3300002: Wood_03
+    3300004: Wood_04
+    3300006: Wood_05
+    3300008: Wood_06
+    3300010: Wood_07
+    3300012: Wood_s02
+    3300014: Wood_s03
+    3300016: Wood_s04
+    3300018: Wood_s05
+    3300020: Wood_s06_Back
+    3300022: Wood_s06_Font
+    3300024: Rock_01
+    3300026: Rock_02
+    3300028: Rock_03
+    3300030: Rock_04
+    3300032: Rock_05
+    3300034: Rock_06
+    3300036: Rock_07
+    3300038: Rock_08
+    3300040: Rock_09
+    3300042: Rock_10
+    3300044: Rock_11
+    3300046: Rock_12
+    3300048: Rock_13
+    3300050: Rock_14
+    3300052: Rock_15
+    3300054: Rock_16
+    3300056: Rock_17
+    3300058: Rock_18
+    3300060: Rock_19
+    3300062: //RootNode
+    4300000: Wood_s06_Font
+    4300002: Wood_02
+    4300004: Wood_03
+    4300006: Wood_04
+    4300008: Wood_05
+    4300010: Wood_06
+    4300012: Wood_07
+    4300014: Wood_s02
+    4300016: Wood_s03
+    4300018: Wood_s04
+    4300020: Wood_s05
+    4300022: Wood_s06_Back
+    4300024: Rock_01
+    4300026: Rock_02
+    4300028: Rock_03
+    4300030: Rock_04
+    4300032: Rock_05
+    4300034: Rock_06
+    4300036: Rock_07
+    4300038: Rock_08
+    4300040: Rock_09
+    4300042: Rock_10
+    4300044: Rock_11
+    4300046: Rock_12
+    4300048: Rock_13
+    4300050: Rock_14
+    4300052: Rock_15
+    4300054: Rock_16
+    4300056: Rock_17
+    4300058: Rock_18
+    4300060: Rock_19
+    4300062: FirePlace
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

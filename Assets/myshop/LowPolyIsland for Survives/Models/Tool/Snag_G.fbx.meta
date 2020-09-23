@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 89e008cc0f69fb34283a532c883bb024
+timeCreated: 1512044816
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Snag
+    100002: Snag_black_01
+    100004: Snag_black_01 (2)
+    100006: Snag_black_02
+    100008: Snag_black_02 (2)
+    100010: Snag_Curve
+    100012: //RootNode
+    100014: Snag_gold_01
+    100016: Snag_gold_01 (2)
+    100018: Snag_gold_02
+    100020: Snag_gold_02 (2)
+    100022: Snag_iron_01
+    100024: Snag_iron_01 (2)
+    100026: Snag_iron_02
+    100028: Snag_iron_02 (2)
+    400000: Snag
+    400002: Snag_black_01
+    400004: Snag_black_01 (2)
+    400006: Snag_black_02
+    400008: Snag_black_02 (2)
+    400010: Snag_Curve
+    400012: //RootNode
+    400014: Snag_gold_01
+    400016: Snag_gold_01 (2)
+    400018: Snag_gold_02
+    400020: Snag_gold_02 (2)
+    400022: Snag_iron_01
+    400024: Snag_iron_01 (2)
+    400026: Snag_iron_02
+    400028: Snag_iron_02 (2)
+    2300000: Snag_black_01
+    2300002: Snag_black_01 (2)
+    2300004: Snag_black_02
+    2300006: Snag_black_02 (2)
+    2300008: Snag_gold_01
+    2300010: Snag_gold_01 (2)
+    2300012: Snag_gold_02
+    2300014: Snag_gold_02 (2)
+    2300016: Snag_iron_01
+    2300018: Snag_iron_01 (2)
+    2300020: Snag_iron_02
+    2300022: Snag_iron_02 (2)
+    3300000: Snag_black_01
+    3300002: Snag_black_01 (2)
+    3300004: Snag_black_02
+    3300006: Snag_black_02 (2)
+    3300008: Snag_gold_01
+    3300010: Snag_gold_01 (2)
+    3300012: Snag_gold_02
+    3300014: Snag_gold_02 (2)
+    3300016: Snag_iron_01
+    3300018: Snag_iron_01 (2)
+    3300020: Snag_iron_02
+    3300022: Snag_iron_02 (2)
+    4300000: Snag_black_02 (2)
+    4300002: Snag_gold_01
+    4300004: Snag_black_01
+    4300006: Snag_iron_02 (2)
+    4300008: Snag_gold_02 (2)
+    4300010: Snag_iron_01 (2)
+    4300012: Snag_iron_01
+    4300014: Snag_gold_01 (2)
+    4300016: Snag_black_01 (2)
+    4300018: Snag_iron_02
+    4300020: Snag_gold_02
+    4300022: Snag_black_02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

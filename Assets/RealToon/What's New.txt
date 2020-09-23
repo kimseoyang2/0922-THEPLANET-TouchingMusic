@@ -1,0 +1,12 @@
+What's New to RealToon V5.0.7 Update (May 2020)
+=====================================
+[New]
+
+- RealToon HDRP Version.
+- Adding instructions for Unpacking/Importing SRP's.
+
+#Read the "Change - Fix Log.txt." file for previous updates.
+#This update supports Unity 5, 2017, 2018, 2019, 2020 and future unity versions.
+
+[Other Notes]
+* If you encounter some problems or need help just contact by email.

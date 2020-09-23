@@ -1,0 +1,71 @@
+RealToon V5.0.7 (HDRP)
+===========================================================
+Note:
+===========================================================
+
+*There is only one shader, means Fade Transparency is now merge to default.
+Tessellation version is still in development.
+
+*Coloring shadows, gloss and rim light is now changed and RealToon HDRP version 
+will be the first to have it, then later URP Version.
+
+*RealToon Effect Sobel Outline is included and improved.
+
+*All lights are supported: Direction, Point, Spot and Arealight.
+
+*It is currently in beta but you can use this now in making games, 
+film/animation and arts without errors.
+
+*Light layers is possible to use.
+
+*Use RealToon + Unity's HDRP shaders is possible too.
+
+*Hover your mouse to an option or feature name for 
+option description and infos.
+
+*There's a temporary RealToon HDRP user guide or documentation included as text file.
+
+*If you encounter any errors/problems or something just email me.
+
+*DXR/Raytracing support will be added soon once 
+Unity's DXR/Raytracing is out of preview and if alot of people using it.
+
+===========================================================
+===========================================================
+
+(To use this you need):
+*Unity 2019.3.0 with HDRP version 7.2.0 or latest Unity & HDRP Version.
+
+How To Update HDRP:
+1.Go to Window > Package Manager.
+2.Select "All Packages" then select "High Definition RP" and select "Version 7.2.0" or latest.
+3.Click "Update" or "Update To".
+
+===========================================================
+New Options/Features for HDRP
+===========================================================
+
+- There are some new options that are only available on HDRP.
+*See the HDRP RealToon inspector.
+
+===========================================================
+Fixed for HDRP
+===========================================================
+
+- None, it is still new.
+
+===========================================================
+HDRP current issues and notes
+===========================================================
+
+[For Outline]
+*In normal or opaque state, far fog will overlap but if there is an opaque object behind, far fog will not overlap. 
+*In 'Transparent Mode' far fog will not overlap."
+*Currently, there is no HDRP line code or function to mask this.
+
+[For Arealight]
+*If the size of a Rect type arealight is too un-even like 'X:30 | Y:1' the light falloff will cause some noise.
+*Current arealight light falloff is just a temporary solution.
+*"Tube Light Falloff" option is a temporary option for Arealight Tube Type light falloff.
+*These current issues only applies when "Area Light Smooth Look" option disabled.
+*Arealight currently in beta, if you want or planned to use it just enable "Enable Area Light" under the category "Lighting".

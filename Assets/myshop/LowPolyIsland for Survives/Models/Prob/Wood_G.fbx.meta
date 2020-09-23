@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 4c870c0c84f76d2478bf695282e696ca
+timeCreated: 1511875256
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube (2)
+    100002: Texture Group
+    100004: Wood_01
+    100006: //RootNode
+    100008: Wood_02
+    100010: Wood_02 (2)
+    100012: Wood_03
+    100014: Wood_04
+    100016: Wood_05
+    100018: Wood_06
+    100020: Wood_07
+    100022: Wood_S_01
+    100024: Wood_s01
+    100026: Wood_s02
+    100028: Wood_s03
+    100030: Wood_s04
+    100032: Wood_s05
+    100034: Wood_s06_Back
+    100036: Wood_s06_Font
+    400000: Cube (2)
+    400002: Texture Group
+    400004: Wood_01
+    400006: //RootNode
+    400008: Wood_02
+    400010: Wood_02 (2)
+    400012: Wood_03
+    400014: Wood_04
+    400016: Wood_05
+    400018: Wood_06
+    400020: Wood_07
+    400022: Wood_S_01
+    400024: Wood_s01
+    400026: Wood_s02
+    400028: Wood_s03
+    400030: Wood_s04
+    400032: Wood_s05
+    400034: Wood_s06_Back
+    400036: Wood_s06_Font
+    2300000: Cube (2)
+    2300002: Wood_01
+    2300004: Wood_02
+    2300006: Wood_02 (2)
+    2300008: Wood_03
+    2300010: Wood_04
+    2300012: Wood_05
+    2300014: Wood_06
+    2300016: Wood_07
+    2300018: Wood_S_01
+    2300020: Wood_s01
+    2300022: Wood_s02
+    2300024: Wood_s03
+    2300026: Wood_s04
+    2300028: Wood_s05
+    2300030: Wood_s06_Back
+    2300032: Wood_s06_Font
+    3300000: Cube (2)
+    3300002: Wood_01
+    3300004: Wood_02
+    3300006: Wood_02 (2)
+    3300008: Wood_03
+    3300010: Wood_04
+    3300012: Wood_05
+    3300014: Wood_06
+    3300016: Wood_07
+    3300018: Wood_S_01
+    3300020: Wood_s01
+    3300022: Wood_s02
+    3300024: Wood_s03
+    3300026: Wood_s04
+    3300028: Wood_s05
+    3300030: Wood_s06_Back
+    3300032: Wood_s06_Font
+    4300000: Wood_01
+    4300002: Cube (2)
+    4300004: Wood_02
+    4300006: Wood_02 (2)
+    4300008: Wood_03
+    4300010: Wood_04
+    4300012: Wood_05
+    4300014: Wood_06
+    4300016: Wood_07
+    4300018: Wood_S_01
+    4300020: Wood_s06_Font
+    4300022: Wood_s01
+    4300024: Wood_s02
+    4300026: Wood_s03
+    4300028: Wood_s04
+    4300030: Wood_s05
+    4300032: Wood_s06_Back
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,29 @@
+===========================================================================
+
+*If you are a unity 2019 users, See the "Others" folder.
+*Read the "Important (Read Me).txt" before unpack.
+
+===========================================================================
+
+*If you are a SRP's user, only import and unpack the SRP you need to use.
+*See the folder "RealToon SRP".
+*Don't forget to import "RealToon (User Guide).pdf". 
+
+Accessing the shader:
+[RealToon LWRP] The shaders are in "Lightweight Render Pipeline"
+[RealToon URP] The shader are in "Universal Render Pipeline"
+[RealToon HDRP] The shader is in "HDRP".
+
+Recommended SRP Versions:
+[RealToon LWRP] - Unity 2018 and LWRP V4.0.0 or latest version.
+[RealToon URP] - Unity 2019.3.0 and URP V7.1.1 or latest version.
+[RealToon HDRP] - Unity 2019 and HDRP V7.2.0 or latest version.
+
+Note:
+The included example is only for RealToon Built-In/Old RP version.
+So if you try to import it in (LWRP/URP or HDRP), it will turn pink.
+I recommend you to delete it or exclude it in importing.
+
+The included example will be change soon.
+
+========================================================================
