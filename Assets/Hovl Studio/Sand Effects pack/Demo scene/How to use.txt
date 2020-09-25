@@ -1,0 +1,4 @@
+Using:
+If you need to change the size of the effect - change the size only in the main component.
+
+Custom shaders use Custom data in particle system (Custom vertex stream - custom1.xy (x value in Custom data)) to move the tornado.
