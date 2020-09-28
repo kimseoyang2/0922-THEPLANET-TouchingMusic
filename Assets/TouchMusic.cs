@@ -1,16 +1,20 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class TouchMusic : MonoBehaviour
 {
     public AudioClip[] SheepBoxClip;
     public AudioSource RandomSource;
+    public DOTweenAnimation dOTweenAnimation;
     public bool isOn = false;
     // Start is called before the first frame update
     void Start()
     {
         RandomSource = gameObject.GetComponent<AudioSource>();
+        dOTweenAnimation = gameObject.GetComponent<DOTweenAnimation>();
+        dOTweenAnimation.DOPause();
     }
 
     // Update is called once per frame
@@ -21,28 +25,37 @@ public class TouchMusic : MonoBehaviour
 
     public void PlayRandomClip(AudioClip[] audioClips)
     {
-        RandomSource.clip = audioClips[Random.Range(0, audioClips.Length)];
-        RandomSource.Play();
+        print("PlayRandomClip");
+        //RandomSource.clip = audioClips[Random.Range(0, audioClips.Length)];
+        dOTweenAnimation.DOPlay();
+        //RandomSource.Play();
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         
-        if (other.CompareTag("SHEEPBOX")) {
+        if (other.CompareTag("PLAYER")) {
             isOn = true;
             
             Debug.Log("Touch SheepBox");
-            if(RandomSource!=null)
+
+            //if(RandomSource == null)
+            //{
+            //    print("RandomSource is null");
+            //    return;
+            //}
+
             if (isOn)
             {
+                
                 PlayRandomClip(SheepBoxClip);
                 isOn = false;
             }
 
-            else if (!isOn)
+            else 
             {
-
+                //dOTweenAnimation.DOPause();
                 PlayRandomClip(SheepBoxClip);
                 isOn = true;
             }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayParticle : MonoBehaviour
 {
     public GameObject spawnParticle;
@@ -23,6 +24,7 @@ public class PlayParticle : MonoBehaviour
 
         if (other.CompareTag("PLAYER"))
         {
+            
             spawnParticle.SetActive(true);
             Invoke("lifeTime", 3f);
 
