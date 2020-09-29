@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class TouchMusic : MonoBehaviour
 {
-    public AudioClip[] SheepBoxClip;
+    public AudioClip[] RandomClip;
     public AudioSource RandomSource;
     public DOTweenAnimation dOTweenAnimation;
     public bool isOn = false;
@@ -26,9 +26,9 @@ public class TouchMusic : MonoBehaviour
     public void PlayRandomClip(AudioClip[] audioClips)
     {
         print("PlayRandomClip");
-        //RandomSource.clip = audioClips[Random.Range(0, audioClips.Length)];
+        RandomSource.clip = audioClips[Random.Range(0, audioClips.Length)];
         dOTweenAnimation.DOPlay();
-        //RandomSource.Play();
+        RandomSource.Play();
     }
 
 
@@ -40,23 +40,24 @@ public class TouchMusic : MonoBehaviour
             
             Debug.Log("Touch SheepBox");
 
-            //if(RandomSource == null)
-            //{
-            //    print("RandomSource is null");
-            //    return;
-            //}
+            if(RandomSource == null)
+            {
+               print("RandomSource is null");
+               return;
+            }
 
             if (isOn)
             {
                 
-                PlayRandomClip(SheepBoxClip);
+                PlayRandomClip(RandomClip);
+                Invoke("StopMove", 5f);
                 isOn = false;
             }
 
             else 
             {
                 //dOTweenAnimation.DOPause();
-                PlayRandomClip(SheepBoxClip);
+                //PlayRandomClip(RandomClip);
                 isOn = true;
             }
 
@@ -68,5 +69,10 @@ public class TouchMusic : MonoBehaviour
 
 
 
+    }
+
+    public void StopMove()
+    {
+        dOTweenAnimation.DOPause();
     }
 }
