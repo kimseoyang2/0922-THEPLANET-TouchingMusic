@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-namespace Michsky.UI.Zone
+namespace Michsky.UI.ModernUIPack
 {
     public class CustomInputField : MonoBehaviour
     {
@@ -24,17 +24,25 @@ namespace Michsky.UI.Zone
         {
             // Check if text is empty or not
             if (inputText.text.Length == 0 || inputText.text.Length <= 0)
+            {
                 isEmpty = true;
+            }
 
             else
+            {
                 isEmpty = false;
+            }
 
             // Animate if it's empty
             if (isEmpty == true)
+            {
                 inputFieldAnimator.Play(outAnim);
+            }
 
             else
+            {
                 inputFieldAnimator.Play(inAnim);
+            }
         }
 
         void Update()

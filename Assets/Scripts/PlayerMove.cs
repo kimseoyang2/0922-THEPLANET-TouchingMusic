@@ -16,8 +16,9 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //StickMove();
-        ComMove();
+        StickMove();
+        //ComMove();
+
     }
 
     void StickMove()
@@ -100,5 +101,11 @@ public class PlayerMove : MonoBehaviour
         transform.position += dir * speed * Time.deltaTime;
         transform.Rotate( new Vector3(0, 2*h, 0));
 
+        if (h != 0 || v != 0)
+        {
+            gameObject.GetComponent<AudioSource>().enabled = true;
+        }
+        else
+            gameObject.GetComponent<AudioSource>().enabled = false;
     }
 }

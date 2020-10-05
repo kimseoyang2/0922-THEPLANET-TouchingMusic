@@ -735,6 +735,10 @@ will be automatically converted to that color space.
 ==========================================
 This update supports Unity 5, 2017, 2018, 2019, 2020 and future unity versions.
 
+
+
+**(Main Update)**
+
 [New]
 
 - RealToon HDRP Version.
@@ -762,3 +766,63 @@ NOTE: To those who planned to update to this version to your current project:
 means you need to recolor if you currently using these options.
 
 - If you are using "Reduce Outline Backface" option, just turn on the "ZWrite" then adjust the "Opacity". [Only LWRP/URP]
+
+
+
+**(Current new included Patch #2 for RealToon 5.0.7) September 2020 Release**
+
+[New]
+
+- Added DXR/Ray Tracing support to RealToon HDRP. 
+- Added SSR (Screen Space Reflection) to RealToon HDRP.
+- new "Enable Screen Space Shadow" option (HDRP).
+- RealToon HDRP has been improved.
+
+- "Ray Traced GI shade falloff" option. (HDRP)
+*Adjust the Ray traced global illumination shade falloff.
+*Useful if you want to blend the colored shadow in a pitch black scene.
+
+- Refresh Settings (New Inspector Option) (Currently HDRP)
+*This will refresh all the realtoon properties and apply the settings properly.
+*This is useful after update and after change material shader.
+
+[Fix]
+
+- Outline looks transparent in a Render Texture. (Built-In RP)
+- Looks too bright when using Point and Spotlight. (Built-In RP - RealToon Lite)
+- Object turned pink when ShadowMask is enabled. (Built-In RP - RealToon Lite "Default")
+
+[Changes]
+
+- “ColorMask RGB” has been removed because it is not the right fix for "outline look transparent in Render Texture" problem. (Built-In RP)
+- RealToon HDRP Reflection "Roughness" option name changed to "Smoothness" because of the added ray tracing. (HDRP)
+- RealToon HDRP codes has been re-arranged and separated for fast update and one call functions, this will also apply to RealToon URP later.
+- "See Through" feature on RealToon HDRP has been temporarily disabled or removed, because Unity HDRP uses the "Stencil" differently, 
+It will be back if there's a new solution. (HDRP)
+- "ZTest" has been temporarily removed or totally remove soon on RealToon HDRP, because Unity HDRP uses the "ZTest" differently. (HDRP)
+
+NOTE:
+*RealToon HDRP Reflection "Roughness" name has been changed to "Smoothness", you might need to change the value again.
+*After you update your RealToon HDRP, click the "Refresh Settings" on the RealToon Inspector to refresh and apply the properties properly.
+
+*For HDRP Users: 
+Read the "RealToon HDRP (Temporary User Guide)" for new info and setup steps.
+Read the "Please read before you unpack or import" for important new notes.
+
+
+
+**(Includes Patch #1 for RealToon 5.0.7) August 2020 Release**
+
+[Fixed]
+
+* “ColorMask RGB” added to outline pass to prevent transparent outline when capturing single image. (ALL)
+* ”Normal Bias” is not working properly. (URP)
+* “Normal Bias” has been removed to prevent double shades. (HDRP)
+* “Spotlight Cookie “ not working (HDRP)
+* ”Spotlight Box Type” doesn’t have Attenuation/Light falloff.
+* "Hide Contact Shadow" not working properly. (HDRP)
+* "Shadow Color Texture" is still affected by “Main Color” even if the "Main Color In Ambient Light Only" is enabled. (HDRP)
+* ”Spotlight Attenuation“ is too strong. (Built-In RP)
+* ”_ShadowCoord” error. (Built-In RP - Unity 2020)
+* ”_GIShadeThreshold” and GUI error. (Built-In RP - Unity 2017)
+* One Pointlight cookie line typo. (Built-In RP)

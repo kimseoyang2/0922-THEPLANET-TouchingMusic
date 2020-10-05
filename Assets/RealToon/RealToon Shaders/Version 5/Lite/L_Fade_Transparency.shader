@@ -1332,7 +1332,7 @@ Shader "RealToon/Version 5/Lite/Fade Transparency" {
 
 				#endif
 
-				float3 emissive = (RTL_MCIALO+RTL_RL) * lightfos;
+				float3 emissive = (RTL_MCIALO*RTL_RL) * lightfos;
 				float3 finalColor = (emissive);
 
                 half RTL_TRAN_O = node_829;

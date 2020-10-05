@@ -208,8 +208,6 @@ Shader "RealToon/Version 5/Tessellation/Fade Transparency" {
             	Fail [_Oper]
             }
             
-			ColorMask RGB
-
             CGPROGRAM
             #pragma hull hull
             #pragma domain domain
@@ -493,7 +491,7 @@ Shader "RealToon/Version 5/Tessellation/Fade Transparency" {
 				//
 
 
-				fixed4 finalRGBA = fixed4(RTD_OL_LAOC_OO,0);
+				fixed4 finalRGBA = fixed4(RTD_OL_LAOC_OO,1);
 
 				UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
 				return finalRGBA;

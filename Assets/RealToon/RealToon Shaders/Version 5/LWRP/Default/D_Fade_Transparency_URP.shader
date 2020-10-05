@@ -203,8 +203,6 @@ Shader "Universal Render Pipeline/RealToon/Version 5/Default/Fade Transparency"
             	Fail [_Oper]
             }
 
-			ColorMask RGB
-
             HLSLPROGRAM
 
             #pragma prefer_hlslcc gles

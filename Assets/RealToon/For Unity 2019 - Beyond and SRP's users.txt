@@ -16,8 +16,8 @@ Accessing the shader:
 
 Recommended SRP Versions:
 [RealToon LWRP] - Unity 2018 and LWRP V4.0.0 or latest version.
-[RealToon URP] - Unity 2019.3.0 and URP V7.1.1 or latest version.
-[RealToon HDRP] - Unity 2019 and HDRP V7.2.0 or latest version.
+[RealToon URP] - Unity 2019.3.0 to newer versions and URP V7.1.1 or latest version.
+[RealToon HDRP] - Unity 2019 to newer versions and HDRP V7.2.0 or latest version.
 
 Note:
 The included example is only for RealToon Built-In/Old RP version.
