@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Reflected_Sphere
-  m_Shader: {fileID: 4800000, guid: 1230ae1c41c1947968abd4e7131f1267, type: 3}
-  m_ShaderKeywords: N_F_EAL_ON N_F_O_ON N_F_RELGI_ON N_F_R_ON
+  m_Shader: {fileID: 4800000, guid: d12428961551799408aa97256fd770c3, type: 3}
+  m_ShaderKeywords: N_F_O_ON N_F_RELGI_ON N_F_R_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,22 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _FReflection:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -52,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 92ca4b1729e1ddd4d992144aa89f9be5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1015cd4b55f6c34459cbd2de7eb84648, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskGloss:
@@ -67,27 +51,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MaskTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MaskTransparency:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MoonTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -119,34 +83,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _StarLayer1DataTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _StarLayer1Tex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _StarLayer2DataTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _StarLayer2Tex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _StarLayer3DataTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _StarLayer3Tex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Texture:
         m_Texture: {fileID: 2800000, guid: 1015cd4b55f6c34459cbd2de7eb84648, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -157,14 +93,9 @@ Material:
     - _AdjustLightPointSpotlightOnly: 1
     - _AffectlightDirectionalLightOnly: 0
     - _AlphaBaseCutout: 1
-    - _AlphaClip: 0
-    - _Blend: 0
-    - _BumpScale: 1
     - _Compa: 8
-    - _Cull: 2
     - _CustomLightDirectionFollowObjectRotation: 1
     - _CustomLightDirectionIntensity: 0
-    - _Cutoff: 0.5
     - _Cutout: 0
     - _DefaultReflectionRoughtness: 0
     - _Depth: 0.2
@@ -174,16 +105,13 @@ Material:
     - _DirectionalLightIntensity: 0
     - _DoubleSided: 2
     - _DoubleSidedOutline: 1
-    - _DstBlend: 0
     - _DynamicNoiseOutline: 1
     - _DynamicNoisyOutline: 1
     - _EOPO: 0
-    - _EnableExternalAlpha: 0
     - _EnableLightFalloff: 1
     - _EnableTextureTransparent: 0
-    - _EnvironmentReflections: 1
     - _EnvironmentalLightingIntensity: 1
-    - _FarDistanceMaxWidth: 12.25
+    - _FarDistanceMaxWidth: 10
     - _FresnelFill: 0.57
     - _FresnelIntensity: 0.13
     - _FresnelOnLight: 1
@@ -193,7 +121,6 @@ Material:
     - _GIShadeThreshold: 0
     - _GlossColorPower: 10
     - _GlossIntensity: 0
-    - _GlossMapScale: 0
     - _GlossSoftness: 0
     - _GlossTextureFollowLight: 0
     - _GlossTextureFollowObjectRotation: 0
@@ -201,13 +128,9 @@ Material:
     - _GlossTextureRotate: 0
     - _GlossTextureSoftness: 0
     - _Glossiness: 0.5
-    - _GlossyReflections: 0
-    - _GradientFadeBegin: -0.179
-    - _GradientFadeEnd: 0.302
     - _HardEdgeFresnel: 0
     - _HighlightColorPower: 1
-    - _HorizonScaleFactor: 0.7
-    - _LightAffectOutlineColor: 1
+    - _LightAffectOutlineColor: 0
     - _LightAffectRimLightColor: 0
     - _LightAffectShadow: 0
     - _LightFalloffAffectShadowT: 0
@@ -219,19 +142,11 @@ Material:
     - _MVCOL: 0
     - _MainColorAffectTexture: 0
     - _MainTextureColorGloss: 0
-    - _Metallic: 0
     - _MixMainTexToOutline: 0
-    - _MoonAngle: 1.57
-    - _MoonEdgeFade: 0.3
-    - _MoonHDRBoost: 1
-    - _MoonHeight: 0.89
-    - _MoonRadius: 0.1
     - _N_F_CA: 0
     - _N_F_CLD: 0
     - _N_F_CO: 0
     - _N_F_D: 0
-    - _N_F_DCS: 0
-    - _N_F_EAL: 1
     - _N_F_FR: 0
     - _N_F_GLO: 0
     - _N_F_GLOT: 0
@@ -254,23 +169,19 @@ Material:
     - _NoisyOutlineIntensity: 1
     - _NormalIntensity: 1
     - _NormalMapIntensity: 0
-    - _OcclusionStrength: 1
-    - _Opacity: 1
     - _Oper: 8
     - _OutlineExtrudeMethod: 0
     - _OutlineMode: 0
     - _OutlineNoiseIntensity: 0.844
-    - _OutlineWidth: 107.15
-    - _OutlineWidthAffectedByViewDistance: 1
+    - _OutlineWidth: 9.55
+    - _OutlineWidthAffectedByViewDistance: 0
     - _OutlineZPostionInCamera: 0
     - _OverallShadowColorPower: 1
     - _PSGLOTEX: 0
     - _PTexturePower: 0
     - _PointLightSVD: 0
     - _PointSpotlightIntensity: 0.3
-    - _QueueOffset: 0
     - _RELG: 1
-    - _ReceiveShadows: 1
     - _ReduceShadowPointLight: 0
     - _ReduceShadowSpotDirectionalLight: 1
     - _ReduceTextureQuality: 0
@@ -287,7 +198,6 @@ Material:
     - _SPECIN: 1
     - _SPECMODE: 0
     - _STIL: 0
-    - _SampleGI: 0
     - _Saturation: 1
     - _SaturationPointSpotlight: 1
     - _SelfLitHighContrast: 0
@@ -324,81 +234,35 @@ Material:
     - _ShowShadowTOnLight: 1
     - _ShowShadowTOnSelfShadow: 1
     - _SmoothObjectNormal: 0
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
     - _SoftGloss: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _StarFadeBegin: 0.067
-    - _StarFadeEnd: 0.36
-    - _StarLayer1Density: 0.01
-    - _StarLayer1EdgeFade: 0.2
-    - _StarLayer1HDRBoost: 1
-    - _StarLayer1MaxRadius: 0.007
-    - _StarLayer1RotationSpeed: 2
-    - _StarLayer1TwinkleAmount: 0.775
-    - _StarLayer1TwinkleSpeed: 2
-    - _StarLayer2Density: 0.01
-    - _StarLayer2EdgeFade: 0.2
-    - _StarLayer2HDRBoost: 1
-    - _StarLayer2MaxRadius: 0.014
-    - _StarLayer2RotationSpeed: 2
-    - _StarLayer2TwinkleAmount: 0.875
-    - _StarLayer2TwinkleSpeed: 3
-    - _StarLayer3Density: 0.01
-    - _StarLayer3EdgeFade: 0.2
-    - _StarLayer3HDRBoost: 1
-    - _StarLayer3MaxRadius: 0.01
-    - _StarLayer3RotationSpeed: 2
-    - _StarLayer3TwinkleAmount: 0.7
-    - _StarLayer3TwinkleSpeed: 1
-    - _Surface: 0
     - _TEXMCOLINT: 1
     - _TextureIntesnity: 0
     - _TexturePatternStyle: 0
     - _Transparent: 0
-    - _TransparentThreshold: 0
     - _UseFReflection: 0
     - _UseGILighting: 1
     - _UseSecondaryCutout: 0
-    - _UseTLB: 0
-    - _VertexColorBlueAffectOutlineWitdh: 0
     - _VertexColorBlueControlSmoothObjectNormal: 0
     - _VertexColorGreenControlSelfShadowThreshold: 0
     - _VertexColorRedAffectOutlineWitdh: 0
-    - _VertexColorRedControlSmoothObjectNormal: 0
     - _VertexColorsIntensity: 0
-    - _WorkflowMode: 1
     - _XYZHardness: 14
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CustomLightDirection: {r: 0, g: 0, b: 10, a: 0}
     - _DepthColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 0.07586217, g: 1, b: 0, a: 1}
     - _GlossColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GradientHorizonColor: {r: 0.7, g: 0.53, b: 0.69, a: 1}
-    - _GradientSkyColor: {r: 0.47, g: 0.45, b: 0.75, a: 1}
     - _HighlightColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 0.8014706, g: 0.8014706, b: 0.8014706, a: 1}
-    - _MoonColor: {r: 0.66, g: 0.65, b: 0.55, a: 1}
-    - _MoonComputedPositionData: {r: 0, g: 0, b: 0, a: 0}
-    - _MoonComputedRotationData: {r: 0, g: 0, b: 0, a: 0}
-    - _OutlineColor: {r: 0.042808846, g: 0.13444279, b: 0.6981132, a: 1}
+    - _OutlineColor: {r: 1, g: 0.55862063, b: 0, a: 1}
     - _OutlineOffset: {r: 0, g: 0, b: 0, a: 1}
     - _OverallShadowColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _SelfLitColor: {r: 1, g: 1, b: 1, a: 1}
     - _SelfShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SelfShadowRealTimeShadowColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowOverrideColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowTColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _StarLayer1Color: {r: 1, g: 1, b: 1, a: 1}
-    - _StarLayer2Color: {r: 1, g: 0.5, b: 0.96, a: 1}
-    - _StarLayer3Color: {r: 0.22, g: 1, b: 0.55, a: 1}
     - _XYZPosition: {r: 0, g: 0, b: 0, a: 0}

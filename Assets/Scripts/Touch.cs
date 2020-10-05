@@ -4,33 +4,51 @@ using UnityEngine;
 
 public class Touch : MonoBehaviour
 {
-    public GameObject particleobj;
+    static public bool makeSound;
+    //public GameObject particleobj;
     //touch particle
-    private ParticleSystem ps;
+    //private ParticleSystem ps;
+    private float soundCount;
     Vector3 originPos;
     private void Start()
     {
-        ps = particleobj.GetComponent<ParticleSystem>();
-        ps.Stop();
+//<<<<<<< Updated upstream
+        //ps = particleobj.GetComponent<ParticleSystem>();
+        //ps.Stop();
         originPos = transform.localPosition;
     }
     private void Update()
     {
        
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         Debug.Log("touch player");
-        gameObject.GetComponent<AudioSource>().Play();
-        if (ps == null)
+
+
+        if (other.gameObject.CompareTag("tutorial") == true)
         {
-            print("지정된 파티클이 없어요!");
+            other.gameObject.GetComponent<AudioSource>().Play();
+            soundCount++;
+
+            if (soundCount > 2)
+                makeSound = true;
         }
-        else
-        {
-            ps.Play();
-            print("충돌! 파티클 플레이!");
-        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+
+
+
+        //if (ps == null)
+        //{
+            //print("지정된 파티클이 없어요!");
+        //}
+        //else
+        //{
+           // ps.Play();
+           // print("충돌! 파티클 플레이!");
+        //}
             
 
     }
@@ -45,6 +63,7 @@ public class Touch : MonoBehaviour
             yield return null;
         }
         transform.localPosition = originPos;
+
 
     }
 }

@@ -69,6 +69,33 @@ still no requirements but adjust "Near Plane" if needed to balance.
 *This is global means it will apply in all scenes with or without the "Global Volume" game object.
 
 ===========================================================
+[Unity HDRP] How to setup and enable DXR/Raytracing
+===========================================================
+
+1.Go to "Window > Render Pipeline > HD Render Pipeline Wizard".
+2.Click "HDRP + DXR" tab under "Configuration Checking".
+3.Click "Fix All"
+4.After that it will enable all the necessary features.
+5.It will ask you to restart the editor, just click "Restart" or "Ok".
+6.Done.
+
+*Unity uses DXR and it will work on all GPUs that supports raytracing.
+
+===========================================================
+[Unity HDRP] How to create your own Raytracing Override Volume
+===========================================================
+
+1.Delete "DXR Settings Volume" in the "Hierarchy" window.
+2.Go to "Game Object > Volume > Global Volume".
+3.Rename your newly created volume.
+4.Click "New", this will create a new Volume Profile.
+5.Click "Add Override".
+6.Go to "Ray Tracing" and then select the raytracing features you want to use.
+7.Done.
+
+*For "Raytracing Reflection" go to "Lighting > Screen Space Reflection".
+
+===========================================================
 [Unity HDRP] To access the HDRP main settings (Mostly for beginners)
 ===========================================================
 
@@ -78,7 +105,7 @@ still no requirements but adjust "Near Plane" if needed to balance.
 
 2.Click that asset.
 
-*In this asset you can adjust the quality of the shadow and size of the shadow map, the number of lights and other advance options/features.
+*This asset you can adjust the quality of the shadow and size of the shadow map, the number of lights and other advance options/features.
 *To know more about this, check the Unity's manual or watch some tutorial videos on youtube about HDRP.
 
 ===========================================================

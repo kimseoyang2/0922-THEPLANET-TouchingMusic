@@ -206,8 +206,6 @@ Shader "RealToon/Version 5/Default/Fade Transparency" {
             	Pass [_Oper]
             	Fail [_Oper]
             }
-            
-			ColorMask RGB
 
             CGPROGRAM
             #pragma vertex vert
@@ -387,7 +385,7 @@ Shader "RealToon/Version 5/Default/Fade Transparency" {
 				//
 
 
-				fixed4 finalRGBA = fixed4(RTD_OL_LAOC_OO,0);
+				fixed4 finalRGBA = fixed4(RTD_OL_LAOC_OO,1);
 
 				UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
 				return finalRGBA;

@@ -167,8 +167,6 @@ Shader "RealToon/Version 5/Lite/Default" {
             	Fail [_Oper]
             }
 
-			ColorMask RGB
-
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -296,7 +294,7 @@ Shader "RealToon/Version 5/Lite/Default" {
 					//
 
 
-					fixed4 finalRGBA = fixed4(RTL_OL_LAOC_OO,0);
+					fixed4 finalRGBA = fixed4(RTL_OL_LAOC_OO,1);
 
 					UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
 					return finalRGBA;
@@ -1220,7 +1218,7 @@ Shader "RealToon/Version 5/Lite/Default" {
 				#if L_F_HPSS_ON
 					fixed attenuation = 1; 
 				#else
-					fixed attenuation = UNITY_SHADOW_ATTENUATION(i, i.posWorld.xyz);
+					fixed attenuation = SHADOW_ATTENUATION(i);
 				#endif
 
 				fixed lightfos = smoothstep(0, _LightFalloffSoftness ,lightfo);
@@ -1506,7 +1504,7 @@ Shader "RealToon/Version 5/Lite/Default" {
 
 				#endif
 
-				float3 emissive = (RTL_MCIALO+RTL_RL) * lightfos;
+				float3 emissive = (RTL_MCIALO*RTL_RL) * lightfos;
 				float3 finalColor = (emissive);
 
                 fixed4 finalRGBA = fixed4(finalColor,1);

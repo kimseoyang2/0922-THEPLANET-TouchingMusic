@@ -3,6 +3,12 @@ RealToon V5.0.7 (HDRP)
 Note:
 ===========================================================
 
+*DXR/Raytracing is now supported.
+
+*Unity uses DXR and it will work on all GPUs that supports raytracing.
+
+*SSR (Screen Space Reflection) is now supported.
+
 *There is only one shader, means Fade Transparency is now merge to default.
 Tessellation version is still in development.
 
@@ -27,9 +33,6 @@ option description and infos.
 
 *If you encounter any errors/problems or something just email me.
 
-*DXR/Raytracing support will be added soon once 
-Unity's DXR/Raytracing is out of preview and if alot of people using it.
-
 ===========================================================
 ===========================================================
 
@@ -52,16 +55,29 @@ New Options/Features for HDRP
 Fixed for HDRP
 ===========================================================
 
-- None, it is still new.
+- None
 
 ===========================================================
-HDRP current issues and notes
+Note and reminder about Raytracing 
+===========================================================
+
+*Raytracing Shadow and Raytracing Global Illumination 
+does not reflect to Raytraced Reflection surface.
+*Only non raytraced shadow and non raytraced global illumination can reflect to Raytraced Reflection surface.
+
+*Fade Transparency or Transparent does not reflect to Raytraced Reflection surface.
+*Opaque objects and transparent type Alpha clip or Cutout transparent can reflect to Raytraced Reflection surface and can bounce light.
+
+===========================================================
+RealToon HDRP current issues
 ===========================================================
 
 [For Outline]
 *In normal or opaque state, far fog will overlap but if there is an opaque object behind, far fog will not overlap. 
 *In 'Transparent Mode' far fog will not overlap."
 *Currently, there is no HDRP line code or function to mask this.
+
+*Currently in raytracing mode, outline will not reflect to Raytraced Relfection surface, to have an outline in a Raytraced Relfection surface, use "Rimlight" as an alternative outline, just changed the "Power" value to negative 1 then enable "Rim Light in Light".
 
 [For Arealight]
 *If the size of a Rect type arealight is too un-even like 'X:30 | Y:1' the light falloff will cause some noise.

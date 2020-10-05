@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Dissolve : MonoBehaviour
 {
-    public static int gameLevel;
+    public int gameLevel;
 
     public Animator transition;
     public float transitionTime = 1f;
@@ -20,11 +20,7 @@ public class Dissolve : MonoBehaviour
     }
     void Update()
     {
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    LoadNextLevel();
-        //}
-        //LoadNextLevel();
+        //LoadScene();
     }
 
     public void SelectLv()

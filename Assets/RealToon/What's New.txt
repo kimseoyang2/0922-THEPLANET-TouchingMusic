@@ -1,12 +1,33 @@
 What's New to RealToon V5.0.7 Update (May 2020)
 =====================================
+
+**(Main Update)**
+
 [New]
 
 - RealToon HDRP Version.
 - Adding instructions for Unpacking/Importing SRP's.
+
+
+
+**(Current new Patch #2 For RealToon 5.0.7) September 2020 Release**
+
+[New]
+
+- RealToon HDRP now with DXR/Raytracing. 
+- SSR (Screen Space Reflection) for RealToon HDRP.
+- Added "Enable Screen Space Shadow" option (HDRP).
+- RealToon HDRP has been improved.
+
+- Refresh Settings (New Inspector Option) (Currently HDRP)
+*This will refresh all the realtoon properties and apply the settings properly.
+*This is useful after update and after change material shader.
+
+
 
 #Read the "Change - Fix Log.txt." file for previous updates.
 #This update supports Unity 5, 2017, 2018, 2019, 2020 and future unity versions.
 
 [Other Notes]
 * If you encounter some problems or need help just contact by email.
+* For PS4 use, contact by email.

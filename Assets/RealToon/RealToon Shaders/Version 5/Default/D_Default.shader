@@ -216,8 +216,6 @@ Shader "RealToon/Version 5/Default/Default" {
             	Fail [_Oper]
             }
             
-			ColorMask RGB
-
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -394,7 +392,7 @@ Shader "RealToon/Version 5/Default/Default" {
 					//
 
 
-					fixed4 finalRGBA = fixed4(RTD_OL_LAOC_OO,0);
+					fixed4 finalRGBA = fixed4(RTD_OL_LAOC_OO,1);
 
 					UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
 					return finalRGBA;
