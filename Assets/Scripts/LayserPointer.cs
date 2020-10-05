@@ -9,7 +9,7 @@ public class LayserPointer : MonoBehaviour
     private RaycastHit Collided_object;
     private GameObject currentObject;
 
-
+    public Material raymat;
     public float raycastDistance = 100f;
 
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class LayserPointer : MonoBehaviour
         layser = this.gameObject.AddComponent<LineRenderer>();
 
         // 라인이 가지개될 색상 표현
-        Material material = new Material(Shader.Find("Standard"));
+        Material material = raymat;
         material.color = new Color(0, 0, 0, 0.5f);
         layser.material = material;
         layser.positionCount = 2;

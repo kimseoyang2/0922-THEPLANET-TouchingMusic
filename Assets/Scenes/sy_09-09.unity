@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 72ccec15158134886849a7c6aaa6a0f3, type: 3}
   m_Sun: {fileID: 1783194949}
-  m_IndirectSpecularColor: {r: 0.01936081, g: 0.02065319, b: 0.026090162, a: 1}
+  m_IndirectSpecularColor: {r: 0.020843692, g: 0.02212914, b: 0.027546672, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 627bf61d5283ca545aa9d00c617f905e,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -45291,8 +45291,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -4742771222389702874, guid: 6868ea51bbf9ce849a14409672d66012,
-        type: 3}
+      objectReference: {fileID: 2100000, guid: ab1c456102124f54b9ac73a185735796, type: 2}
     - target: {fileID: 3678284019495527652, guid: 9b6d1842914a543bcb708791fa52bc38,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71192,7 +71191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c7f67d7cc557c41a69142e1b152eba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleobj: {fileID: 2061984746}
 --- !u!82 &2012310322
 AudioSource:
   m_ObjectHideFlags: 0
@@ -74274,12 +74272,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4347356976579260, guid: 1edff175943fbae408f18f64320576a1,
     type: 3}
   m_PrefabInstance: {fileID: 2015885353}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2061984746 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: eae93d429354eea4b8ad27d2207fb13a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1392068164}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2062565985
 PrefabInstance:
