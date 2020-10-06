@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Rose.unity
     guid: 4483434176d89c14f879f4c86b59311a
+  - enabled: 1
+    path: Assets/Scenes/DesertMainScene.unity
+    guid: 22bb9f1a9e7d64cef85370de4804f200
   m_configObjects: {}
