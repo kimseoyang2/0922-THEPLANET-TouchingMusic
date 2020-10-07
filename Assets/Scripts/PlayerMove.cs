@@ -16,7 +16,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //StickMove();
+        StickMove();
         ComMove();
 
     }
