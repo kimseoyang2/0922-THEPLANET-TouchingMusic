@@ -68,14 +68,15 @@ public class Spawner : MonoBehaviour
     /// </summary>
     void RecalculateCurrentPosAndRot()
     {
-        currentPos = new Vector3(controller.transform.localPosition.x, controller.transform.localPosition.y, controller.transform.localPosition.z + 1.0f);
+        currentPos = controller.transform.forward;
         
-        Vector3 lookPos = cam.transform.position;
-        currentRotation = Quaternion.LookRotation(lookPos);
+        //Vector3 lookPos = cam.transform.position;
+        //currentRotation = Quaternion.LookRotation(lookPos);
     }
 
     void Update()
     {
+        UpdateObjectPosition();
         //New feature to be evalutated - use the mouse scroll wheel to increase or decrease the distance from the camera
         var dist = OVRInput.Button.DpadUp;
         if(dist != 0)
