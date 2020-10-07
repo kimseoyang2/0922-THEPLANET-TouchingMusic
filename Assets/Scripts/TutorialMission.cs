@@ -78,7 +78,7 @@ public class TutorialMission : MonoBehaviour
         }
         else if (missionNum == 9 && success == true)
         {
-            levelLoader.SetActive(true);
+            //levelLoader.SetActive(true);
             Invoke("LoadScene", 2.0f);
         }
 
@@ -133,7 +133,7 @@ public class TutorialMission : MonoBehaviour
     //6. 물체를 두드려봐라
     void MakeSound()
     {
-        soundNote.transform.position = player.transform.localPosition + new Vector3(0, 0, 2f);
+        soundNote.transform.position = player.transform.position + new Vector3(0, 0, 2f);
         soundNote.SetActive(true);
         missionText.GetComponent<Text>().text = "두드리면 소리가 나요!";
 
