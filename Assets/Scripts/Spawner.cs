@@ -2,7 +2,6 @@
 using UnityEngine;
 using DG.Tweening;
 
-[RequireComponent(typeof(SpawnedObjectManager))]
 public class Spawner : MonoBehaviour
 {
     [Tooltip("Main camera of the scene.")]
