@@ -8,7 +8,7 @@ public class ClickMusic : MonoBehaviour
     public GameObject spawnParticle;
     public GameObject controller;
 
-    Vector3 currentPos;
+    public Transform currentPos;
 
     // Start is called before the first frame update
     void Start()
@@ -19,14 +19,14 @@ public class ClickMusic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0))
         {
-            currentPos = controller.transform.position + new Vector3(0, 0, 3);
-            GameObject spawned = Instantiate(objects, currentPos, Quaternion.identity);
+            GameObject spawned = Instantiate(objects, currentPos.position, Quaternion.identity);
 
             if (spawnParticle != null)
             {
-                var particle = Instantiate(spawnParticle, currentPos, spawnParticle.transform.rotation);
+                var particle = Instantiate(spawnParticle, currentPos.position, spawnParticle.transform.rotation);
                 Destroy(particle, 3);
             }
 
@@ -34,12 +34,11 @@ public class ClickMusic : MonoBehaviour
 
         if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger) )
         {
-            currentPos = controller.transform.position + new Vector3(0, 0, 3);
-            GameObject spawned = Instantiate(objects, currentPos, Quaternion.identity) ;
+            GameObject spawned = Instantiate(objects, currentPos.position, Quaternion.identity) ;
 
             if (spawnParticle != null)
             {
-                var particle = Instantiate(spawnParticle, currentPos, spawnParticle.transform.rotation);
+                var particle = Instantiate(spawnParticle, currentPos.position, spawnParticle.transform.rotation);
                 Destroy(particle, 3);
             }
 
