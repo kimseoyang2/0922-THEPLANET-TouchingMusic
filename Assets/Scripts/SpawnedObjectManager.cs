@@ -27,7 +27,7 @@ public class SpawnedObjectManager : MonoBehaviour
     bool isKinematic = true;
 
     void Start(){
-        kinematicKeyText.text = kinematicActivateKey.ToString().ToUpper();
+        //kinematicKeyText.text = kinematicActivateKey.ToString().ToUpper();
         setImages(isKinematic);
     }
 

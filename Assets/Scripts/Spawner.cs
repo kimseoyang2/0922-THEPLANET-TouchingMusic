@@ -55,11 +55,11 @@ public class Spawner : MonoBehaviour
     {
         distance = initialDistance;
         outlinedObjects = new List<GameObject>();
-        spawnedObjectManager = GetComponent<SpawnedObjectManager>();
+        //spawnedObjectManager = GetComponent<SpawnedObjectManager>();
         SpawnInitialObjects();
         AddAlreadySpawnedObjects();
 
-        RecalculateCurrentPosAndRot();
+        currentPos = controller.transform.forward;
 
     }
 
