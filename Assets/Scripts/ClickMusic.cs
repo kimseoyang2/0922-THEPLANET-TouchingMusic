@@ -8,6 +8,9 @@ public class ClickMusic : MonoBehaviour
     public GameObject spawnParticle;
     public GameObject controller;
 
+    public AudioSource noteClipSource;
+    public AudioClip[] forwardNoteClips;
+
     public Transform currentPos;
 
     // Start is called before the first frame update
@@ -23,6 +26,8 @@ public class ClickMusic : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObject spawned = Instantiate(objects, currentPos.position, Quaternion.identity);
+
+            PlayRandomClip(forwardNoteClips);
 
             if (spawnParticle != null)
             {
@@ -43,5 +48,11 @@ public class ClickMusic : MonoBehaviour
             }
 
         }
+    }
+
+    public void PlayRandomClip(AudioClip[] audioClips)
+    {
+        noteClipSource.clip = audioClips[Random.Range(0, audioClips.Length)];
+        noteClipSource.Play();
     }
 }
