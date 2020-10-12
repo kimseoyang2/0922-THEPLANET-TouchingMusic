@@ -26,7 +26,6 @@ public class ClickMusic : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObject spawned = Instantiate(objects, currentPos.position, Quaternion.identity);
-
             PlayRandomClip(forwardNoteClips);
 
             if (spawnParticle != null)
@@ -40,6 +39,7 @@ public class ClickMusic : MonoBehaviour
         if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger) )
         {
             GameObject spawned = Instantiate(objects, currentPos.position, Quaternion.identity) ;
+            PlayRandomClip(forwardNoteClips);
 
             if (spawnParticle != null)
             {
