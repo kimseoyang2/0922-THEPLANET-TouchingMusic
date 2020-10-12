@@ -7,6 +7,8 @@ public class PlayerMove : MonoBehaviour
     public float speed;
     public Camera cam;
 
+    bool audioExist;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -101,11 +103,13 @@ public class PlayerMove : MonoBehaviour
         transform.position += dir * speed * Time.deltaTime;
         transform.Rotate( new Vector3(0, 2*h, 0));
 
-        if (h != 0 || v != 0)
+        audioExist = gameObject.GetComponent<AudioSource>();
+
+        /*if (h != 0 || v != 0 && audioExist==true)
         {
             gameObject.GetComponent<AudioSource>().enabled = true;
         }
-        else
-            gameObject.GetComponent<AudioSource>().enabled = false;
+        else if (audioExist==false)
+            gameObject.GetComponent<AudioSource>().enabled = false;*/
     }
 }
