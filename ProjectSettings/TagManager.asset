@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - PLAYER
   - Button
+  - WAYPOINT
   layers:
   - Default
   - TransparentFX
