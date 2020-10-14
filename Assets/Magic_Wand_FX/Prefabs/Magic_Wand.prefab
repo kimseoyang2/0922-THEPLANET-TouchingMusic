@@ -53121,6 +53121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4564894560162532}
   - component: {fileID: 114297234853637208}
+  - component: {fileID: 1225793546}
   m_Layer: 0
   m_Name: Magic_Wand
   m_TagString: Untagged
@@ -53137,7 +53138,7 @@ Transform:
   m_GameObject: {fileID: 1725087211884268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 162.17003, y: 50.4159, z: 151.88}
   m_Children:
   - {fileID: 4814169084740780}
   - {fileID: 4207324125350222}
@@ -53164,6 +53165,19 @@ MonoBehaviour:
   wand_FX_LocationNode: {fileID: 1221778462717138}
   fireBoltLight: {fileID: 108409398684734708}
   wandFireLight: {fileID: 108654903304434330}
+--- !u!65 &1225793546
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725087211884268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03, y: 0.3, z: 0.03}
+  m_Center: {x: 0, y: 0.14, z: 0}
 --- !u!1 &1782209736481568
 GameObject:
   m_ObjectHideFlags: 0

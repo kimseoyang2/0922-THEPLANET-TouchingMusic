@@ -26,7 +26,8 @@ public class TouchMusic : MonoBehaviour
     public void PlayRandomClip(AudioClip[] audioClips)
     {
         print("PlayRandomClip");
-        RandomSource.clip = audioClips[Random.Range(0, audioClips.Length)];
+        //RandomSource.clip = audioClips[Random.Range(0, audioClips.Length)];
+        RandomSource.PlayOneShot(audioClips[Random.Range(0, audioClips.Length)]);
         dOTweenAnimation.DOPlay();
         RandomSource.Play();
     }
