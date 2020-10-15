@@ -206,6 +206,7 @@ public class TutorialMission : MonoBehaviour
         }
         if (missionNum == 2 && LFVertical == 0 && RFVertical > 0)
         {
+            checktime += Time.deltaTime;
             if (checktime > 2)
             {
                 Check.GetComponent<Toggle>().isOn = true;
@@ -226,6 +227,7 @@ public class TutorialMission : MonoBehaviour
 
         if (missionNum == 3 && LFVertical > 0 && RFVertical == 0)
         {
+            checktime += Time.deltaTime;
             if (checktime > 2)
             {
                 Check.GetComponent<Toggle>().isOn = true;
@@ -244,6 +246,7 @@ public class TutorialMission : MonoBehaviour
         }
         if (missionNum == 4 && LFVertical > 0 && RFVertical > 0)
         {
+            checktime += Time.deltaTime;
             if (checktime > 3)
             {
                 Check.GetComponent<Toggle>().isOn = true;
@@ -274,7 +277,7 @@ public class TutorialMission : MonoBehaviour
         {
             Check.GetComponent<Toggle>().isOn = true;
         }
-        if (missionNum == 9)
+        if (missionNum == 9) // start Game
         {
             Check.GetComponent<Toggle>().isOn = true;
         }
