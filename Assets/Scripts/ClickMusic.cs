@@ -10,6 +10,7 @@ public class ClickMusic : MonoBehaviour
 
     public AudioSource noteClipSource;
     public AudioClip[] forwardNoteClips;
+    public Material[] bubbleMat;
 
     public Transform currentPos;
 
@@ -25,7 +26,12 @@ public class ClickMusic : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            float[] bubbleScale = new float[] { 0.2f, 0.3f, 0.4f, 0.5f, 0.6f, 0.7f };
+            float Scale = bubbleScale[Random.Range(0, bubbleScale.Length)];
             GameObject spawned = Instantiate(objects, currentPos.position, Quaternion.identity);
+            spawned.transform.localScale = new Vector3(Scale, Scale, Scale);
+
+            spawned.GetComponent<MeshRenderer>().material = bubbleMat[Random.Range(0, bubbleMat.Length)];
             PlayRandomClip(forwardNoteClips);
 
             if (spawnParticle != null)
@@ -38,7 +44,10 @@ public class ClickMusic : MonoBehaviour
 
         if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger) )
         {
+            float[] bubbleScale = new float[] { 0.2f, 0.3f, 0.4f, 0.5f, 0.6f, 0.7f };
+            float Scale = bubbleScale[Random.Range(0, bubbleScale.Length)];
             GameObject spawned = Instantiate(objects, currentPos.position, Quaternion.identity) ;
+            spawned.transform.localScale = new Vector3(Scale, Scale, Scale);
             PlayRandomClip(forwardNoteClips);
 
             if (spawnParticle != null)
