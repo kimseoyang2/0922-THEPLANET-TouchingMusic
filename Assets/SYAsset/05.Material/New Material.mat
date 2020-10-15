@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4f774f0fd726b6f4a8f8dfb4943e4c67, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskGloss:
@@ -93,8 +93,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineWidthControl:
-        m_Texture: {fileID: 28564219439362536, guid: 0f8efb016d7e7704a96ffe296261f74d,
-          type: 2}
+        m_Texture: {fileID: 2800000, guid: 8c9cfa1dbe00a1d41ae9d14f5ac543ec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PTexture:
@@ -135,7 +134,7 @@ Material:
     - _DynamicNoisyOutline: 1
     - _EnableTextureTransparent: 0
     - _EnvironmentReflections: 1
-    - _EnvironmentalLightingIntensity: -9.64
+    - _EnvironmentalLightingIntensity: -3.3
     - _FarDistanceMaxWidth: 16.89
     - _GIFlatShade: 1
     - _GIShadeThreshold: 0.91
@@ -191,7 +190,7 @@ Material:
     - _Opacity: 1
     - _Oper: 0
     - _OutlineExtrudeMethod: 1
-    - _OutlineWidth: 5.07
+    - _OutlineWidth: 29.49
     - _OutlineWidthAffectedByViewDistance: 1
     - _OutlineZPostionInCamera: -4.2
     - _OverallShadowColorPower: 1
