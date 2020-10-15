@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class PortalTeleport : MonoBehaviour
 {
+    public int nowSceneNum;
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(nowSceneNum + 1);
     }
 }
