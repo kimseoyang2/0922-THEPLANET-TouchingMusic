@@ -58,21 +58,6 @@ public class TutorialMission : MonoBehaviour
         }
         else if (missionNum == 5 && success == true)
         {
-            Invoke("MakeSound", 1.5f);
-            success = false;
-        }
-        else if (missionNum == 6 && success == true)
-        {
-            Invoke("SaveSound", 1.5f);
-            success = false;
-        }
-        else if (missionNum == 7 && success == true)
-        {
-            Invoke("PlaySound", 1.5f);
-            success = false;
-        }
-        else if (missionNum == 8 && success == true)
-        {
             Invoke("StartGame", 1.5f);
             success = false;
         }
@@ -221,11 +206,11 @@ public class TutorialMission : MonoBehaviour
         }
         if (missionNum == 2 && LFVertical == 0 && RFVertical > 0)
         {
+            checktime += Time.deltaTime;
             if (checktime > 2)
             {
                 Check.GetComponent<Toggle>().isOn = true;
             }
-            Check.GetComponent<Toggle>().isOn = true;
         }
 
         //오른쪽으로 돌아라
@@ -239,12 +224,29 @@ public class TutorialMission : MonoBehaviour
                 Check.GetComponent<Toggle>().isOn = true;
             }
         }
+
+        if (missionNum == 3 && LFVertical > 0 && RFVertical == 0)
+        {
+            checktime += Time.deltaTime;
+            if (checktime > 2)
+            {
+                Check.GetComponent<Toggle>().isOn = true;
+            }
+        }
         //앞으로 이동하면서 회전하기
         if (missionNum == 4 && h != 0 && v > 0)
         {
             Debug.Log("잘하는중");
             checktime += Time.deltaTime;
             //시간 2초 이상
+            if (checktime > 3)
+            {
+                Check.GetComponent<Toggle>().isOn = true;
+            }
+        }
+        if (missionNum == 4 && LFVertical > 0 && RFVertical > 0)
+        {
+            checktime += Time.deltaTime;
             if (checktime > 3)
             {
                 Check.GetComponent<Toggle>().isOn = true;
@@ -275,7 +277,7 @@ public class TutorialMission : MonoBehaviour
         {
             Check.GetComponent<Toggle>().isOn = true;
         }
-        if (missionNum == 9)
+        if (missionNum == 9) // start Game
         {
             Check.GetComponent<Toggle>().isOn = true;
         }
