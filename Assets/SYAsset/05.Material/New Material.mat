@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4f774f0fd726b6f4a8f8dfb4943e4c67, type: 3}
+        m_Texture: {fileID: 2800000, guid: dca784a171b0ed548874786bf8f5a4e3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskGloss:
@@ -190,7 +190,7 @@ Material:
     - _Opacity: 1
     - _Oper: 0
     - _OutlineExtrudeMethod: 1
-    - _OutlineWidth: 29.49
+    - _OutlineWidth: -73.87
     - _OutlineWidthAffectedByViewDistance: 1
     - _OutlineZPostionInCamera: -4.2
     - _OverallShadowColorPower: 1
