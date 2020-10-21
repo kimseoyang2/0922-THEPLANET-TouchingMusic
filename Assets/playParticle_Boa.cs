@@ -6,13 +6,13 @@ using UnityEngine;
 public class playParticle_Boa : MonoBehaviour
 {
     public GameObject spawnParticle;
-
+    public MeshRenderer meshRenderer;
     // Start is called before the first frame update
     void Start()
     {
 
 
-
+        meshRenderer = gameObject.GetComponent<MeshRenderer>();
 
 
 
@@ -24,10 +24,10 @@ public class playParticle_Boa : MonoBehaviour
 
         if (other.CompareTag("PLAYER"))
         {
-
             spawnParticle.SetActive(true);
+            meshRenderer.enabled = false;
+           
             Invoke("lifeTime", 3f);
-            this.gameObject.SetActive(false);
 
 
 
@@ -43,6 +43,8 @@ public class playParticle_Boa : MonoBehaviour
     void lifeTime()
     {
         spawnParticle.SetActive(false);
+        meshRenderer.enabled = true;
+
     }
 
 }
