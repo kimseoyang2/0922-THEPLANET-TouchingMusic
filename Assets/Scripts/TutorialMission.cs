@@ -279,7 +279,9 @@ public class TutorialMission : MonoBehaviour
         }
         if (missionNum == 9) // start Game
         {
-            Check.GetComponent<Toggle>().isOn = true;
+            checktime += Time.deltaTime;
+            if (checktime > 3)
+                Check.GetComponent<Toggle>().isOn = true;
         }
     }
 

@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/DesertMainScene.unity
     guid: 22bb9f1a9e7d64cef85370de4804f200
   - enabled: 1
-    path: Assets/Scenes/DesertMain_Fox.unity
-    guid: 46be77c9ec88f4917bb3dbc9e1ee8e4b
+    path: Assets/Scenes/DesertMain_Fox2.unity
+    guid: 54a7560e1a10f96438ae6516c0c9aa4d
   - enabled: 1
     path: Assets/Scenes/Rose 1.unity
     guid: 2ceaf7f6201a6f64087ca98c6f751398
