@@ -63,8 +63,7 @@ public class TutorialMission : MonoBehaviour
         }
         else if (missionNum == 9 && success == true)
         {
-            //levelLoader.SetActive(true);
-            Invoke("LoadScene", 2.0f);
+            SceneManager.LoadScene("DesertMain_Fox2");
         }
 
     }
@@ -156,7 +155,7 @@ public class TutorialMission : MonoBehaviour
     }
     void LoadScene()
     {
-        SceneManager.LoadScene(2);
+        LoadingSceneController.LoadScene("DesertMain_Fox2");
     }
 
     //미션 성공 여부 판단
