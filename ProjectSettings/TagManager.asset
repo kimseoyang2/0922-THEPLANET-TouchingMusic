@@ -9,6 +9,7 @@ TagManager:
   - PLAYER
   - Button
   - WAYPOINT
+  - UI
   layers:
   - Default
   - TransparentFX
