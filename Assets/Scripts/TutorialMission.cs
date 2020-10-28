@@ -17,6 +17,9 @@ public class TutorialMission : MonoBehaviour
     public AudioSource click;
     public AudioSource appear;
 
+    public Image img;
+    public Sprite[] imgSource;
+
     private float missionNum;
     float missionTime;
     float checktime;
@@ -63,8 +66,7 @@ public class TutorialMission : MonoBehaviour
         }
         else if (missionNum == 9 && success == true)
         {
-            //levelLoader.SetActive(true);
-            Invoke("LoadScene", 2.0f);
+            LoadingSceneController.LoadScene("DesertMain_Fox2");
         }
 
     }
@@ -74,7 +76,7 @@ public class TutorialMission : MonoBehaviour
     void MoveStraight()
     {
         missionText.GetComponent<Text>().text = "앞으로 3초동안 걸어봐요.";
-        
+        img.GetComponent<Image>().sprite = imgSource[0];
         checktime = 0;
         missionNum = 1;
         Check.GetComponent<Toggle>().isOn = false;
@@ -83,7 +85,7 @@ public class TutorialMission : MonoBehaviour
     void TurnLeft()
     {
         missionText.GetComponent<Text>().text = "왼쪽으로 돌아봐요.";
-
+        img.GetComponent<Image>().sprite = imgSource[1];
         checktime = 0;
         missionNum = 2;
         Check.GetComponent<Toggle>().isOn = false;
@@ -92,7 +94,7 @@ public class TutorialMission : MonoBehaviour
     void TurnRight()
     {
         missionText.GetComponent<Text>().text = "오른쪽으로 돌아봐요.";
-
+        img.GetComponent<Image>().sprite = imgSource[2];
         checktime = 0;
         missionNum = 3;
         Check.GetComponent<Toggle>().isOn = false;
@@ -110,7 +112,7 @@ public class TutorialMission : MonoBehaviour
     void Jump()
     {
         missionText.GetComponent<Text>().text = "이번엔 점프를 해봐요!";
-
+        img.GetComponent<Image>().sprite = imgSource[3];
         checktime = 0;
         missionNum = 5;
         Check.GetComponent<Toggle>().isOn = false;
@@ -156,7 +158,7 @@ public class TutorialMission : MonoBehaviour
     }
     void LoadScene()
     {
-        SceneManager.LoadScene(2);
+        LoadingSceneController.LoadScene("DesertMain_Fox2");
     }
 
     //미션 성공 여부 판단
