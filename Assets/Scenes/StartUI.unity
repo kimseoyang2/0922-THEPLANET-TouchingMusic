@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1257,13 +1257,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229752672}
-  m_LocalRotation: {x: 0.99642813, y: -0.053103056, z: -0.003494218, w: 0.06556519}
-  m_LocalPosition: {x: 0.056, y: 0.527, z: 1.035}
+  m_LocalRotation: {x: 0.9915391, y: -0.059122514, z: -0.09864834, w: 0.060193498}
+  m_LocalPosition: {x: 0.603, y: 0.648, z: 1.432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 173284455}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 7.4860005, y: -179.195, z: -173.84601}
+  m_LocalEulerAnglesHint: {x: 6.183, y: -168.233, z: -172.53801}
 --- !u!108 &1229752674
 Light:
   m_ObjectHideFlags: 0
@@ -1275,7 +1275,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.7082024, b: 0.07075471, a: 1}
   m_Intensity: 845.4
   m_Range: 57
   m_SpotAngle: 86.54856
@@ -1381,7 +1381,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 48784e32cd10f9a43b267ece46db5384, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d9f04ab49419c194c8af7cb4afb37a64, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
