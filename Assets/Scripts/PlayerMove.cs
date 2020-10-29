@@ -101,13 +101,13 @@ public class PlayerMove : MonoBehaviour
             //점프
         }
     }
-
+    public float sem = 100; 
     void ComMove()
     {
         float h = Input.GetAxis("Mouse X");
         float v = Input.GetAxis("Mouse Y");
         
-        Vector3 dir = v * transform.forward;
+        Vector3 dir = v * 100 * transform.forward;
 
         transform.position += dir * speed * Time.deltaTime;
         transform.Rotate( new Vector3(0, 2*h, 0));
