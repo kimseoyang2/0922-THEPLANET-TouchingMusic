@@ -104,8 +104,8 @@ public class PlayerMove : MonoBehaviour
 
     void ComMove()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        float h = Input.GetAxis("Mouse X");
+        float v = Input.GetAxis("Mouse Y");
         
         Vector3 dir = v * transform.forward;
 

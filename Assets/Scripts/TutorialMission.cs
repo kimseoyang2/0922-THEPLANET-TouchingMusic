@@ -66,7 +66,7 @@ public class TutorialMission : MonoBehaviour
         }
         else if (missionNum == 9 && success == true)
         {
-            LoadingSceneController.LoadScene("DesertMain_Fox2");
+            SceneManager.LoadScene("DesertMain_Fox2");
         }
 
     }
