@@ -16,8 +16,9 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StickMove();
-        ComMove();
+        //StickMove();
+        //ComMove();
+        BLGMove();
 
     }
 
@@ -93,6 +94,19 @@ public class PlayerMove : MonoBehaviour
 
     void ComMove()
     {
+        float a = Input.GetAxis("JoystickX");
+        if(a != 0)
+        {
+            print("JoystickX : " + a);
+        }
+
+        a = Input.GetAxis("JoystickY");
+        if (a != 0)
+        {
+            print("JoystickY: " + a);
+        }
+
+       // return;
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
@@ -101,11 +115,30 @@ public class PlayerMove : MonoBehaviour
         transform.position += dir * speed * Time.deltaTime;
         transform.Rotate(new Vector3(0, 2 * h, 0));
 
-        if (h != 0 || v != 0)
+    }
+
+    void BLGMove()
+    {
+        float a = Input.GetAxis("JoystickX");
+        if (a != 0)
         {
-            gameObject.GetComponent<AudioSource>().enabled = true;
+            print("JoystickX : " + a);
         }
-        else
-            gameObject.GetComponent<AudioSource>().enabled = false;
+
+        a = Input.GetAxis("JoystickY");
+        if (a != 0)
+        {
+            print("JoystickY: " + a);
+        }
+
+            float Blgforword = Input.GetAxis("JoystickX");
+            float Blgrotate = Input.GetAxis("JoystickY");
+
+            Vector3 dir = Blgforword * transform.forward;
+            transform.position += dir * speed * Time.deltaTime;
+       
+            transform.Rotate(new Vector3(0, 2 * Blgrotate, 0));
+
+
     }
 }

@@ -1,32 +1,27 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExampleTest : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    private readonly Array keyCodes = Enum.GetValues(typeof(KeyCode));
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        string[] names = Input.GetJoystickNames();
+        print("Mouse X :" + Input.GetAxisRaw("Mouse X"));
+        print("Mouse Y :" + Input.GetAxisRaw("Mouse Y"));
 
-        for(int i = 0; i < names.Length; i++)
+        if (Input.anyKeyDown)
         {
-            if (names[i].Length > 0) print("joystick : " + names[i]);
+            foreach (KeyCode keyCode in keyCodes)
+            {
+                if (Input.GetKey(keyCode))
+                {
+                    Debug.Log("KeyCode down: " + keyCode);
+                    break;
+                }
+            }
         }
-
-        string str = Input.inputString;
-        if(str.Length > 0)
-        {
-            print(str);
-        }
-        
-        if (Input.anyKey)
-            Debug.Log(Input.inputString);
     }
 }

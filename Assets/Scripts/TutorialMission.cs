@@ -17,6 +17,8 @@ public class TutorialMission : MonoBehaviour
     public AudioSource click;
     public AudioSource appear;
 
+    public GameObject loader;
+
     public Image img;
     public Sprite[] imgSource;
 
@@ -66,7 +68,8 @@ public class TutorialMission : MonoBehaviour
         }
         else if (missionNum == 9 && success == true)
         {
-            SceneManager.LoadScene("DesertMain_Fox2");
+            LoadingSceneController.LoadScene("DesertMain_Fox2");
+            loader.SetActive(true);
         }
 
     }

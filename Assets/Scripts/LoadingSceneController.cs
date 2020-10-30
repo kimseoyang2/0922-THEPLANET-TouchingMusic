@@ -14,7 +14,7 @@ public class LoadingSceneController : MonoBehaviour
     public static void LoadScene(string sceneName)
     {
         nextScene = sceneName;
-        SceneManager.LoadScene("LoadingScene");
+        //SceneManager.LoadScene("LoadingScene");
     }
 
     // Start is called before the first frame update
@@ -34,14 +34,14 @@ public class LoadingSceneController : MonoBehaviour
         {
             yield return null;
 
-            if (op.progress < 0.5f)
+            if (op.progress < 0.4f)
             {
                 progressBar.fillAmount = op.progress;
             }
             else
             {
-                timer += Time.unscaledDeltaTime;
-                progressBar.fillAmount = Mathf.Lerp(0.5f, 1f, timer);
+                timer += Time.unscaledDeltaTime * 0.2f;
+                progressBar.fillAmount = Mathf.Lerp(0.4f, 1f, timer);
                 if(progressBar.fillAmount >= 1f)
                 {
                     op.allowSceneActivation = true;
