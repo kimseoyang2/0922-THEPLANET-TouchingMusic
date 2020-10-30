@@ -9570,6 +9570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   cam: {fileID: 0}
+  sem: 100
 --- !u!65 &823927382
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22100,7 +22101,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 15
       minScalar: 5
       maxCurve:
         serializedVersion: 2
