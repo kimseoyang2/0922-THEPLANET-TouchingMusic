@@ -31,7 +31,7 @@ public class Touch : MonoBehaviour
             other.gameObject.GetComponent<AudioSource>().Play();
             soundCount++;
 
-            if (soundCount > 2)
+            if (soundCount > 5)
                 makeSound = true;
         }
     }
