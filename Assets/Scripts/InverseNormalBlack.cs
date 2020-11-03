@@ -8,6 +8,8 @@ public class InverseNormalBlack : MonoBehaviour
     Material mat;
     Mesh mesh;
 
+    public static bool getWhite;
+
     void Start()
     {
         mesh = GetComponent<MeshFilter>().mesh;
@@ -29,18 +31,21 @@ public class InverseNormalBlack : MonoBehaviour
         mesh.normals = normals;
 
         mat = GetComponent<MeshRenderer>().material;
-
+        getWhite = false;
     }
 
     private void Update()
     {
-
+        
         Color color = mat.color;
         //만약 0.5보다 숫자가 작으면 여기들어가기
         if (color.a <= 1f)
         {
             color.a += Time.deltaTime * 0.5f;
             mat.color = color;
+
+            if (color.a >= 0.9f)
+                getWhite = true;
         }
     }
 }

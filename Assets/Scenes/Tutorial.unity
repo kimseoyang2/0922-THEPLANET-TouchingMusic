@@ -2465,6 +2465,7 @@ MonoBehaviour:
   click: {fileID: 1294379411}
   appear: {fileID: 1294379410}
   loader: {fileID: 1428886468}
+  sphere: {fileID: 1154253706}
   img: {fileID: 1099386342}
   imgSource:
   - {fileID: 21300000, guid: 4075edbddaec4b146bbcb5e7c75fb337, type: 3}
