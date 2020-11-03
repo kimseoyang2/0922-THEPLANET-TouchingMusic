@@ -1,0 +1,64 @@
+{
+    "name": "BLG",
+    "maps": [
+        {
+            "name": "BLGMove",
+            "id": "a0e7fa65-9b67-43d6-8a88-e1c0428afe87",
+            "actions": [
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "d9102f7d-3fa7-426c-bf9e-c2d9d1c1496b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveForward",
+                    "type": "Value",
+                    "id": "1c68fc97-42dd-4165-8dca-08982437f5eb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4b18d221-352e-4daf-8f96-d260b8fa6fb7",
+                    "path": "<HID::E502-CDAB>/ry",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ded2de11-29ef-4f40-89cb-a8130e60a48f",
+                    "path": "<HID::E502-CDAB>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "MoveForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<HID::E502-CDAB>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
