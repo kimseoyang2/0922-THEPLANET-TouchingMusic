@@ -36,7 +36,7 @@ public class TouchMusic : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         
-        if (other.CompareTag("PLAYER")) {
+        if (other.CompareTag("PLAYER")|| other.CompareTag("Player")) {
             isOn = true;
             
             Debug.Log("Touch SheepBox");
