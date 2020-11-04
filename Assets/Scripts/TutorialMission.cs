@@ -159,7 +159,7 @@ public class TutorialMission : MonoBehaviour
     void StartGame()
     {
         missionText.GetComponent<Text>().text = "자 이제 여행을 시작할까요?";
-
+        soundNote.SetActive(false);
         checktime = 0;
         missionNum = 9;
         Check.GetComponent<Toggle>().isOn = false;
@@ -290,7 +290,7 @@ public class TutorialMission : MonoBehaviour
         if (missionNum == 9) // start Game
         {
             checktime += Time.deltaTime;
-            if (checktime > 3)
+            if (checktime > 1.5f)
                 Check.GetComponent<Toggle>().isOn = true;
         }
     }
