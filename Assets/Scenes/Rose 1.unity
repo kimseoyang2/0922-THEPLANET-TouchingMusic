@@ -9570,7 +9570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   cam: {fileID: 0}
-  sem: 100
+  rotspeed: 2
 --- !u!65 &823927382
 BoxCollider:
   m_ObjectHideFlags: 0

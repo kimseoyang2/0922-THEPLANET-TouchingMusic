@@ -6,6 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
     public float speed;
     public Camera cam;
+    public float rotspeed;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +50,7 @@ public class PlayerMove : MonoBehaviour
         {
             Vector3 RF = new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
             Vector3 LF = new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z);
-            transform.RotateAround(LF, Vector3.up, -1 * RFVertical);
+            transform.RotateAround(LF, Vector3.up, -rotspeed * RFVertical);
         }
         //오른발 후진, 왼발 가만히 있으면 왼발을 중심으로 오른쪽 회전
         else if (LFVertical == 0 && RFVertical < 0)
@@ -57,7 +58,7 @@ public class PlayerMove : MonoBehaviour
             Vector3 RF = new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
             Vector3 LF = new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z);
 
-            transform.RotateAround(LF, Vector3.up, -1 * RFVertical);
+            transform.RotateAround(LF, Vector3.up, -rotspeed * RFVertical);
         }
         //왼발 전진, 오른발 가만히 있으면 오른발 중심으로 오른쪽 회전
         else if (LFVertical > 0 && RFVertical == 0)
@@ -65,7 +66,7 @@ public class PlayerMove : MonoBehaviour
             Vector3 RF = new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
             Vector3 LF = new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z);
 
-            transform.RotateAround(RF, Vector3.up, LFVertical);
+            transform.RotateAround(RF, Vector3.up, LFVertical * rotspeed);
         }
         //왼발 후진, 오른발 가만히 있으면 오른발 중심으로 왼쪽 회전
         else if (LFVertical < 0 && RFVertical == 0)
@@ -73,17 +74,17 @@ public class PlayerMove : MonoBehaviour
             Vector3 RF = new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
             Vector3 LF = new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z);
 
-            transform.RotateAround(RF, Vector3.up, LFVertical);
+            transform.RotateAround(RF, Vector3.up, LFVertical * rotspeed);
         }
         //왼발 전진, 오른발 후진이면 제자리 오른쪽 회전
         else if (LFVertical > 0 && RFVertical < 0)
         {
-            transform.RotateAround(transform.position, Vector3.up, (Mathf.Abs(RFVertical) + LFVertical));
+            transform.RotateAround(transform.position, Vector3.up, (Mathf.Abs(RFVertical) + LFVertical) * rotspeed);
         }
         //왼발 후진, 오른발 전진이면 제자리 왼쪽 회전
         else if (LFVertical < 0 && RFVertical > 0)
         {
-            transform.RotateAround(transform.position, Vector3.up, -1 * (Mathf.Abs(LFVertical) + RFVertical));
+            transform.RotateAround(transform.position, Vector3.up, -1 * (Mathf.Abs(LFVertical) + RFVertical) * rotspeed);
         }
         //왼발은 왼쪽, 오른발은 오른쪽으로 이동하면 제자리 점프
         else if (LFHorizontal < 0 && RFHorizontal > 0)
@@ -100,7 +101,7 @@ public class PlayerMove : MonoBehaviour
         Vector3 dir = v * transform.forward;
 
         transform.position += dir * speed * Time.deltaTime;
-        transform.Rotate(new Vector3(0, 2 * h, 0));
+        transform.Rotate(new Vector3(0, rotspeed * h, 0));
 
     }
 

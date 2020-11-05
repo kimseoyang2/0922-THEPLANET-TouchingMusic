@@ -10,6 +10,9 @@ public class Dissolve : MonoBehaviour
 
     public Animator transition;
     public float transitionTime = 1f;
+
+    public GameObject sphere;
+    public GameObject loader;
     //public GameObject levelUI;
     //public GameObject startUI;
     // Update is called once per frame
@@ -30,16 +33,34 @@ public class Dissolve : MonoBehaviour
         //startUI.SetActive(false);
     }
 
-    public void LoadScene()
+
+
+    public void StartGame()
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        sphere.SetActive(true);
+        if (InverseNormalBlack.getWhite == true)
+        {
+            Debug.Log("하얗다");
+            LoadingSceneController.LoadScene("DesertMain_Fox2");
+            loader.SetActive(true);
+        }
     }
 
-    IEnumerator LoadLevel(int levelIndex)
+    public void Tutorial()
+    {
+        sphere.SetActive(true);
+        if (InverseNormalBlack.getWhite == true)
+        {
+            LoadingSceneController.LoadScene("Tutorial");
+            loader.SetActive(true);
+        }
+    }
+
+    /*IEnumerator LoadLevel(int levelIndex)
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelIndex);
     }
-
+    */
 }
