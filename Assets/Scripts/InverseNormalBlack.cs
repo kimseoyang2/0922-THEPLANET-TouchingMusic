@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
@@ -9,6 +10,8 @@ public class InverseNormalBlack : MonoBehaviour
     Mesh mesh;
 
     public static bool getWhite;
+
+    public Action onCompleteWhite;
 
     void Start()
     {
@@ -45,7 +48,15 @@ public class InverseNormalBlack : MonoBehaviour
             mat.color = color;
 
             if (color.a >= 0.9f)
+            {
                 getWhite = true;
+                if(onCompleteWhite != null)
+                {
+                    onCompleteWhite();
+                    onCompleteWhite = null;
+                        
+                }
+            }
         }
     }
 }

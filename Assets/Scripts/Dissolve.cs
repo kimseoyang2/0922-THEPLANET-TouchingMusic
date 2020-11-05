@@ -38,22 +38,31 @@ public class Dissolve : MonoBehaviour
     public void StartGame()
     {
         sphere.SetActive(true);
-        if (InverseNormalBlack.getWhite == true)
-        {
-            Debug.Log("하얗다");
+        InverseNormalBlack inverseNormalBlack = sphere.GetComponent<InverseNormalBlack>();
+        //inverseNormalBlack.onCompleteWhite = OnCompleteWhite;
+        inverseNormalBlack.onCompleteWhite = () => {
             LoadingSceneController.LoadScene("DesertMain_Fox2");
             loader.SetActive(true);
-        }
+        };
+        //if (InverseNormalBlack.getWhite == true)
+        //{
+        //    Debug.Log("하얗다");
+        //    LoadingSceneController.LoadScene("DesertMain_Fox2");
+        //    loader.SetActive(true);
+        //}
     }
+
+
 
     public void Tutorial()
     {
         sphere.SetActive(true);
-        if (InverseNormalBlack.getWhite == true)
-        {
+        InverseNormalBlack inverseNormalBlack = sphere.GetComponent<InverseNormalBlack>();
+        //inverseNormalBlack.onCompleteWhite = OnCompleteWhite;
+        inverseNormalBlack.onCompleteWhite = () => {
             LoadingSceneController.LoadScene("Tutorial");
             loader.SetActive(true);
-        }
+        };
     }
 
     /*IEnumerator LoadLevel(int levelIndex)
