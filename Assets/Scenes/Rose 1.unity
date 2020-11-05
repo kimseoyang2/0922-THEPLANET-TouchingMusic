@@ -31338,10 +31338,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1180658289337593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8487fb3badadd66438d0de8c2da761ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ac28ed6d32bbe44fa07554ab2858395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nowSceneNum: 3
+  nowSceneNum: 0
 --- !u!4 &4000011144495805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2611878687698937512, guid: be37abb5cd9226745943e7f6b1b03f34,
